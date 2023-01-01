@@ -163,6 +163,7 @@ img {
 
 /*------------------------------ BREAKPOINTS --------------------------------*/
 
+/* md */
 @media screen and (max-width: 992px) {
   .container {
     margin-left: 1.5rem;
@@ -170,12 +171,15 @@ img {
   }
 }
 
+/* sm */
 @media screen and (max-width: 768px) {
 }
 
+/* xs */
 @media screen and (max-width: 576px) {
 }
 
+/* xxs */
 @media screen and (max-width: 350px) {
   .container {
     margin-left: 1rem;

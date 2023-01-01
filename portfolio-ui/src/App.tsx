@@ -1,5 +1,6 @@
 import Routes from "routes";
-import "App.css";
+import "styles/App.css";
+import "styles/General.css";
 import "styles/config-bootstrap.sass";
 import { BrowserRouter } from "react-router-dom";
 
