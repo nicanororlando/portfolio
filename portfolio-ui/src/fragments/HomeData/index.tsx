@@ -1,8 +1,11 @@
 import { Hand, Send } from "assets/Svg";
+import { useLanguage } from "hooks/useLanguage";
 import React from "react";
 // import "./styles.css";
 
 const Data: React.FC = () => {
+  const { language } = useLanguage();
+
   return (
     <div className="home__data">
       <h1 className="home__title">
