@@ -62,7 +62,7 @@ const NavBar: React.FC<Props> = ({ children }) => {
           </div>
         </nav>
       </header>
-      <div className="mt-100 mt-sm-10">{children}</div>
+      <main className="mt-100 mt-sm-10">{children}</main>
     </div>
   );
 };

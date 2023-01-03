@@ -1,0 +1,16 @@
+{
+  "navBar": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "home": {
+    "data": {
+      "home_description": "I'm creative designer based in Argentina, and I'm very passionate and dedicated to my work.",
+      "hello_button": "Say hello"
+    }
+  }
+}

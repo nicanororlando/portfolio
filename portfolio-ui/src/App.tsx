@@ -3,12 +3,15 @@ import "styles/App.css";
 import "styles/General.css";
 import "styles/config-bootstrap.sass";
 import { BrowserRouter } from "react-router-dom";
+import AppProvider from "contexts";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes />
-    </BrowserRouter>
+    <AppProvider>
+      <BrowserRouter>
+        <Routes />
+      </BrowserRouter>
+    </AppProvider>
   );
 }
 

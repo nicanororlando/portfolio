@@ -1,0 +1,16 @@
+{
+  "navBar": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "skills": "Habilidades",
+    "services": "Servicios",
+    "portfolio": "Portafolio",
+    "contact": "Contacto"
+  },
+  "home": {
+    "data": {
+      "home_description": "Soy desarrollador web Full Stack, creativo y de rapido aprendizaje.",
+      "hello_button": "Saludame"
+    }
+  }
+}
