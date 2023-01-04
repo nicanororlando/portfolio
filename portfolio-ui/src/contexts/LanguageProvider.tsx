@@ -39,10 +39,11 @@ interface Props {
 }
 
 export const LanguageProvider: React.FC<Props> = ({ children }) => {
-  const location = useLocation();
+  // const pathname = window.location.pathname;
+  const { pathname } = useLocation();
   const history = useHistory();
   const [idiom, setIdiom] = useState(() => {
-    let lang = location.pathname.slice(1, 3);
+    let lang = pathname.slice(1, 3);
     if (lang !== "es") {
       lang = localStorage.getItem("language") || "en";
     }
@@ -52,11 +53,11 @@ export const LanguageProvider: React.FC<Props> = ({ children }) => {
   });
 
   useLayoutEffect(() => {
-    const idiomSelected = location.pathname.slice(1).split("/");
+    const idiomSelected = pathname.slice(1).split("/");
     if (idiomSelected[0].length === 2) {
       setIdiom(idiomSelected[0]);
     }
-  }, [location.pathname]);
+  }, [pathname]);
 
   const handleSelectIdiom = useCallback((idiomSelected: string) => {
     setIdiom(idiomSelected);
@@ -67,20 +68,18 @@ export const LanguageProvider: React.FC<Props> = ({ children }) => {
   const language = useMemo(() => {
     const checkIdiom = localStorage.getItem("language");
     if (checkIdiom !== idiom) {
-      const lang = location.pathname.slice(1, 3);
+      const lang = pathname.slice(1, 3);
       if (lang !== "en" && lang !== "es" && lang !== "pt") {
-        history.push(`${process.env.PUBLIC_URL}/${idiom}${location.pathname}`);
+        history.push(`${process.env.PUBLIC_URL}/${idiom}${pathname}`);
       } else {
-        history.push(
-          `${process.env.PUBLIC_URL}/${idiom}${location.pathname.slice(3)}`
-        );
+        history.push(`${process.env.PUBLIC_URL}/${idiom}${pathname.slice(3)}`);
       }
     }
 
     localStorage.setItem("language", idiom);
 
-    return require(`./languages/${idiom}`);
-  }, [history, idiom, location.pathname]);
+    return require(`data/Languages/${idiom}`);
+  }, [history, idiom, pathname]);
 
   return (
     <LanguageContext.Provider value={{ language, handleSelectIdiom, idiom }}>
