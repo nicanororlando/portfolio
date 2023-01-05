@@ -16,7 +16,7 @@ const NavBar: React.FC<Props> = ({ children }) => {
             Nicanor
           </a>
           <div className={ToggleMenu ? "nav__menu show-menu" : "nav__menu"}>
-            <div className="container">
+            <div className="container nav__list-container">
               <ul className="nav__list">
                 <li className="nav__item">
                   <a href="#home" className="nav__link active-link">
@@ -48,7 +48,7 @@ const NavBar: React.FC<Props> = ({ children }) => {
                     <i className="uil uil-message nav__icon"></i> Contact
                   </a>
                 </li>
-                <div className="toggle-switch">
+                <div className="toggle-switch nav__item">
                   <label>
                     <input type="checkbox" />
                     <span className="slider" />
