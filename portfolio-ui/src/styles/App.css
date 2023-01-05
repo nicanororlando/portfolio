@@ -9,6 +9,8 @@
   /* Color mode HSL (hue, saturation, lightness) */
   --hue: 0;
   --sat: 0%;
+  --light: #d8dbe0;
+  --dark: hsl(var(--hue), var(--sat), 20%);
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --nav-link-color: hsl(var(--hue), var(--sat), 50%);

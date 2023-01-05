@@ -6,7 +6,7 @@ interface Props {
 }
 
 const NavBar: React.FC<Props> = ({ children }) => {
-  const [Toggle, showMenu] = useState(false);
+  const [ToggleMenu, showMenu] = useState(false);
 
   return (
     <div className="container d-flex flex-column p-10">
@@ -15,8 +15,7 @@ const NavBar: React.FC<Props> = ({ children }) => {
           <a href="index.html" className="nav__logo">
             Nicanor
           </a>
-
-          <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
+          <div className={ToggleMenu ? "nav__menu show-menu" : "nav__menu"}>
             <div className="container">
               <ul className="nav__list">
                 <li className="nav__item">
@@ -49,15 +48,21 @@ const NavBar: React.FC<Props> = ({ children }) => {
                     <i className="uil uil-message nav__icon"></i> Contact
                   </a>
                 </li>
+                <div className="toggle-switch">
+                  <label>
+                    <input type="checkbox" />
+                    <span className="slider" />
+                  </label>
+                </div>
               </ul>
               <i
                 className="uil uil-times nav__close"
-                onClick={() => showMenu(!Toggle)}
+                onClick={() => showMenu(!ToggleMenu)}
               ></i>
             </div>
           </div>
 
-          <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
+          <div className="nav__toggle" onClick={() => showMenu(!ToggleMenu)}>
             <i className="uil uil-apps"></i>
           </div>
         </nav>
