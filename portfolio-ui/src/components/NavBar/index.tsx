@@ -8,7 +8,7 @@ import { useTheme } from "hooks/useTheme";
 
 const NavBar: React.FC = () => {
   const [ToggleMenu, showMenu] = useState(false);
-  const { theme, handleTheme } = useTheme();
+  const { themeChecked, handleTheme } = useTheme();
 
   return (
     <div className="d-flex flex-column p-10">
@@ -52,7 +52,11 @@ const NavBar: React.FC = () => {
                 </li>
                 <div className="toggle-switch nav__item">
                   <label>
-                    <input type="checkbox" onChange={handleTheme} />
+                    <input
+                      type="checkbox"
+                      checked={!themeChecked}
+                      onChange={handleTheme}
+                    />
                     <span className="slider" />
                   </label>
                 </div>
