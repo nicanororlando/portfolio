@@ -1,15 +1,17 @@
 import React, { useState } from "react";
 import "./styles.css";
+import { useTheme } from "hooks/useTheme";
 
-interface Props {
-  children: React.ReactNode;
-}
+// interface Props {
+//   children: React.ReactNode;
+// }
 
-const NavBar: React.FC<Props> = ({ children }) => {
+const NavBar: React.FC = () => {
   const [ToggleMenu, showMenu] = useState(false);
+  const { theme, handleTheme } = useTheme();
 
   return (
-    <div className="container d-flex flex-column p-10">
+    <div className="d-flex flex-column p-10">
       <header className="header">
         <nav className="header__nav container">
           <a href="index.html" className="nav__logo">
@@ -50,7 +52,7 @@ const NavBar: React.FC<Props> = ({ children }) => {
                 </li>
                 <div className="toggle-switch nav__item">
                   <label>
-                    <input type="checkbox" />
+                    <input type="checkbox" onChange={handleTheme} />
                     <span className="slider" />
                   </label>
                 </div>
@@ -67,7 +69,6 @@ const NavBar: React.FC<Props> = ({ children }) => {
           </div>
         </nav>
       </header>
-      <main className="mt-100 mt-sm-10">{children}</main>
     </div>
   );
 };

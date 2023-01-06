@@ -18,13 +18,16 @@ interface Props {
 export const ThemeProvider: React.FC<Props> = ({ children }) => {
   const [theme, setTheme] = useState("light");
 
-  const handleTheme = useCallback(
-    (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-      if (event.target.value === "light") setTheme("light");
-      else setTheme("dark");
-    },
-    []
-  );
+  // const handleTheme = useCallback(
+  //   (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  //     if (event.target.value === "light") setTheme("light");
+  //     else setTheme("dark");
+  //   },
+  //   []
+  // );
+
+  const handleTheme = () =>
+    setTheme((curr) => (curr === "light" ? "dark" : "light"));
 
   return (
     <ThemeContext.Provider value={{ theme, handleTheme }}>

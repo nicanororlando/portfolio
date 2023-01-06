@@ -11,9 +11,9 @@ const Data: React.FC = () => {
       <h1 className="home__title">
         Nicanor Orlando <Hand />
       </h1>
-      <h3 className="home__subtitle">Web developer</h3>
+      <h3 className="home__subtitle">Junior Full Stack Developer</h3>
       <p className="home_description">
-        I'm creative designer based in Argentina, and I'm very passionate and
+        I'm creative developer based in Argentina, and I'm very passionate and
         dedicated to my work.
       </p>
       <a href="#contact" className="button button--flex">

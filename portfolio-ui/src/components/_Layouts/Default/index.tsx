@@ -1,28 +1,21 @@
 import NavBar from "components/NavBar";
 import React from "react";
-// import { useLocation } from "react-router-dom";
-
-// import api from '~/services/api';
-// import { useAuth } from '~/hooks/Auth';
+import { useTheme } from "hooks/useTheme";
 
 interface Props {
   children: React.ReactNode;
 }
 
 const Default: React.FC<Props> = ({ children }) => {
-  // const { signOut } = useAuth();
-  // const location = useLocation();
-
-  // useEffect(() => {
-  //   api.get('sessions/check-login').catch(() => {
-  //     signOut();
-  //   });
-  // }, [signOut, location.pathname]);
+  const { theme } = useTheme();
 
   return (
-    <>
-      <NavBar>{children}</NavBar>
-    </>
+    <div id={theme}>
+      <NavBar />
+      <main>
+        <div className="container mt-100 mt-sm-10">{children}</div>
+      </main>
+    </div>
   );
 };
 
