@@ -1,9 +1,9 @@
 import React from "react";
-// import "./styles.css";
+import "./styles.css";
 
 const Social: React.FC = () => {
   return (
-    <div className="home__social">
+    <div className="d-flex flex-column align-items-center">
       <a
         href="https://github.com/nicanororlando"
         className="home__social-icon"

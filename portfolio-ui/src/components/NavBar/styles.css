@@ -1,15 +1,10 @@
 .header {
+  background-color: var(--container-color);
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-}
-#light .header {
-  background-color: var(--container-color-light);
-}
-#dark .header {
-  background-color: var(--container-color-dark);
 }
 
 .header__nav {
@@ -27,14 +22,7 @@
 .nav__logo,
 .nav__toggle {
   font-weight: var(--font-medium);
-}
-#light .nav__logo,
-#light .nav__toggle {
-  color: var(--title-color-light);
-}
-#dark .nav__logo,
-#dark .nav__toggle {
-  color: var(--title-color-dark);
+  color: var(--title-color);
 }
 
 .nav__list {
@@ -50,12 +38,7 @@
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
   transition: 0.3s;
-}
-#light .nav__link {
-  color: var(--nav-link-color-light);
-}
-#dark .nav__link {
-  color: var(--nav-link-color-dark);
+  color: var(--nav-link-color);
 }
 
 .nav__icon,
@@ -67,11 +50,11 @@
 /* Active link */
 #light .active-link,
 #light .nav__link:hover {
-  color: var(--title-color-active-light);
+  color: var(--title-color-active);
 }
 #dark .active-link,
 #dark .nav__link:hover {
-  color: var(--title-color-active-dark);
+  color: var(--title-color-active);
 }
 
 /*------------------------------ BREAKPOINTS --------------------------------*/
@@ -79,6 +62,10 @@
   .header {
     top: initial;
     bottom: 0;
+  }
+
+  .toggle-switch {
+    display: none;
   }
 
   .header__nav {
@@ -94,12 +81,7 @@
     box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
     border-radius: 1.5rem 1.5rem 0 0;
     transition: 0.3s;
-  }
-  #light .nav__menu {
-    background-color: var(--body-color-light);
-  }
-  #dark .nav__menu {
-    background-color: var(--body-color-dark);
+    background-color: var(--body-color);
   }
 
   /* Show menu */
@@ -125,19 +107,14 @@
     margin-top: 30px;
     font-size: 1.5rem;
     cursor: pointer;
-  }
-  #light .nav__close {
-    color: var(--title-color-light);
-  }
-  #dark .nav__close {
-    color: var(--title-color-dark);
+    color: var(--title-color);
   }
 
   #light .nav__close:hover {
-    color: var(--title-color-light-active);
+    color: var(--title-color-active);
   }
   #dark .nav__close:hover {
-    color: var(--title-color-dark-active);
+    color: var(--title-color-active);
   }
 
   .nav__toggle {
@@ -174,7 +151,7 @@ label {
   position: absolute;
   width: 45px;
   height: 24px;
-  background-color: var(--button-bg-color-light);
+  background-color: var(--bg-color-light);
   border-radius: 50px;
   cursor: pointer;
 }
@@ -204,12 +181,12 @@ input:checked ~ .slider {
   height: 16px;
   border-radius: 50%;
   box-shadow: inset 6px -4px 0px 0px var(--light);
-  background-color: var(--button-bg-color-light);
+  background-color: var(--bg-color-light);
   transition: 0.3s;
 }
 
 input:checked ~ .slider::before {
   transform: translateX(20px);
-  background-color: var(--button-bg-color-light);
+  background-color: var(--bg-color-light);
   box-shadow: none;
 }

@@ -17,32 +17,26 @@ textarea {
   font-size: var(--normal-font-size);
 }
 
+body {
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
 #light {
   background-color: var(--light);
-  color: var(--text-color-light);
+  color: var(--text-color);
 }
 
 #dark {
   background-color: var(--dark);
-  color: var(--text-color-dark);
+  color: var(--text-color);
 }
 
 h1,
 h2,
 h3 {
   font-weight: var(--font-semi-bold);
-}
-
-#light h1,
-#light h2,
-#light h3 {
-  color: var(--title-color-light);
-}
-
-#dark h1,
-#dark h2,
-#dark h3 {
-  color: var(--title-color-dark);
+  color: var(--title-color);
 }
 
 ul {
@@ -68,12 +62,7 @@ img {
 /*------------------------------Reusable CSS Clases--------------------------------*/
 .section__title {
   font-size: var(--h1-font-size);
-}
-#light .section__title {
-  color: var(--title-color-light);
-}
-#dark .section__title {
-  color: var(--title-color-dark);
+  color: var(--title-color);
 }
 
 .section__subtitle {
@@ -109,19 +98,19 @@ img {
   font-weight: var(--font-medium);
 }
 #light .button {
-  background-color: var(--button-bg-color-light);
-  color: var(--text-color-dark);
+  background-color: var(--button-bg-color);
+  color: var(--button-color);
 }
 #dark .button {
-  background-color: var(--button-bg-color-dark);
-  color: var(--text-color-light);
+  background-color: var(--button-bg-color);
+  color: var(--button-color);
 }
 
 #light .button:hover {
-  background-color: var(--button-bg-color-active-light);
+  background-color: var(--button-bg-color-active);
 }
 #dark .button:hover {
-  background-color: var(--button-bg-color-active-dark);
+  background-color: var(--button-bg-color-active);
 }
 
 .button__icon {

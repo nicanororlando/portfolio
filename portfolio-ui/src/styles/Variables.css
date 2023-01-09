@@ -3,38 +3,15 @@
 
 /*------------------------------VARIABLE CSS--------------------------------*/
 :root {
-  --header-height: 3rem;
-
-  /* Colors */
-  /* Color mode HSL (hue, saturation, lightness) */
   --hue: 0;
   --sat: 0%;
+
   --light: #d8dbe0;
   --dark: #28292c;
 
-  --title-color-light: hsl(var(--hue), var(--sat), 20%);
-  --title-color-active-light: hsl(var(--hue), var(--sat), 0%);
+  --bg-color-light: hsl(var(--hue), var(--sat), 20%);
 
-  --title-color-dark: hsl(var(--hue), var(--sat), 50%);
-  --title-color-active-dark: hsl(var(--hue), var(--sat), 70%);
-
-  --nav-link-color-light: hsl(var(--hue), var(--sat), 50%);
-  --nav-link-color-dark: hsl(var(--hue), var(--sat), 50%);
-
-  --text-color-light: #28292c;
-  --text-color-dark: #d8dbe0;
-
-  --body-color-light: hsl(var(--hue), var(--sat), 98%);
-  --body-color-dark: hsl(var(--hue), var(--sat), 50%);
-
-  --container-color-light: #fff;
-  --container-color-dark: #111;
-
-  --button-bg-color-light: hsl(var(--hue), var(--sat), 20%);
-  --button-bg-color-active-light: hsl(var(--hue), var(--sat), 10%);
-
-  --button-bg-color-dark: hsl(var(--hue), var(--sat), 80%);
-  --button-bg-color-active-dark: hsl(var(--hue), var(--sat), 90%);
+  --header-height: 3rem;
 
   /* Font and Typography */
   --body-font: "Poppins", sans-serif;
@@ -58,6 +35,51 @@
   --z-tooltip: 10;
   --z-fixed: 100;
   --z-modal: 1000;
+}
+
+#light {
+  /* Colors */
+  /* Color mode HSL (hue, saturation, lightness) */
+
+  --title-color: hsl(var(--hue), var(--sat), 20%);
+  --title-color-active: hsl(var(--hue), var(--sat), 0%);
+
+  --nav-link-color: hsl(var(--hue), var(--sat), 50%);
+
+  --text-color: hsl(var(--hue), var(--sat), 20%);
+  --text-color-active: hsl(var(--hue), var(--sat), 0%);
+
+  --body-color: hsl(var(--hue), var(--sat), 90%);
+
+  --container-color: #fff;
+
+  --button-bg-color: hsl(var(--hue), var(--sat), 20%);
+  --button-bg-color-active: hsl(var(--hue), var(--sat), 10%);
+
+  --button-color: hsl(var(--hue), var(--sat), 80%);
+  --button-color-active: hsl(var(--hue), var(--sat), 70%);
+}
+
+#dark {
+  /* Colors */
+  /* Color mode HSL (hue, saturation, lightness) */
+
+  --title-color: hsl(var(--hue), var(--sat), 50%);
+  --title-color-active: hsl(var(--hue), var(--sat), 70%);
+  --nav-link-color: hsl(var(--hue), var(--sat), 50%);
+
+  --text-color: hsl(var(--hue), var(--sat), 50%);
+  --text-color-active: hsl(var(--hue), var(--sat), 70%);
+
+  --body-color: hsl(var(--hue), var(--sat), 10%);
+
+  --container-color: #111;
+
+  --button-bg-color: hsl(var(--hue), var(--sat), 80%);
+  --button-bg-color-active: hsl(var(--hue), var(--sat), 90%);
+
+  --button-color: hsl(var(--hue), var(--sat), 20%);
+  --button-color-active: hsl(var(--hue), var(--sat), 30%);
 }
 
 /* Responsive typography */

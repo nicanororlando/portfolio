@@ -1,0 +1,83 @@
+/*------------------------------GOOGLE FONTS--------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/*------------------------------VARIABLE CSS--------------------------------*/
+:root {
+  --header-height: 3rem;
+
+  /* Colors */
+  /* Color mode HSL (hue, saturation, lightness) */
+  --hue: 0;
+  --sat: 0%;
+  --light: #d8dbe0;
+  --dark: #28292c;
+
+  --title-color-light: hsl(var(--hue), var(--sat), 20%);
+  --title-color-active-light: hsl(var(--hue), var(--sat), 0%);
+
+  --title-color-dark: hsl(var(--hue), var(--sat), 50%);
+  --title-color-active-dark: hsl(var(--hue), var(--sat), 70%);
+
+  --nav-link-color-light: hsl(var(--hue), var(--sat), 50%);
+  --nav-link-color-dark: hsl(var(--hue), var(--sat), 50%);
+
+  --text-color-light: hsl(var(--hue), var(--sat), 20%);
+  --text-color-active-light: hsl(var(--hue), var(--sat), 0%);
+
+  --text-color-dark: hsl(var(--hue), var(--sat), 50%);
+  --text-color-active-dark: hsl(var(--hue), var(--sat), 70%);
+
+  --body-color-light: hsl(var(--hue), var(--sat), 98%);
+  --body-color-dark: hsl(var(--hue), var(--sat), 50%);
+
+  --container-color-light: #fff;
+  --container-color-dark: #111;
+
+  --button-bg-color-light: hsl(var(--hue), var(--sat), 20%);
+  --button-bg-color-active-light: hsl(var(--hue), var(--sat), 10%);
+
+  --button-bg-color-dark: hsl(var(--hue), var(--sat), 80%);
+  --button-bg-color-active-dark: hsl(var(--hue), var(--sat), 90%);
+
+  --button-color-light: hsl(var(--hue), var(--sat), 80%);
+  --button-color-active-light: hsl(var(--hue), var(--sat), 70%);
+
+  --button-color-dark: hsl(var(--hue), var(--sat), 20%);
+  --button-color-active-dark: hsl(var(--hue), var(--sat), 30%);
+
+  /* Font and Typography */
+  --body-font: "Poppins", sans-serif;
+
+  /* .5rem = 8px | 1rem = 16px ... */
+  --big-font-size: 3.5rem;
+  --h1-font-size: 2.25rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+  --smaller-font-size: 0.813rem;
+  --tiny-font-size: 0.625rem;
+
+  /* Font weight */
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /* z index */
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
+}
+
+/* Responsive typography */
+@media screen and (max-width: 992px) {
+  :root {
+    --big-font-size: 2.75rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.81rem;
+    --smaller-font-size: 0.75 rem;
+  }
+}

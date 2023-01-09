@@ -1,0 +1,23 @@
+/* .home__social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.home__social-icon {
+  width: 22.51px;
+  margin: 5px;
+  text-align: center;
+}
+#light .home__social-icon {
+  color: var(--text-color);
+}
+#dark .home__social-icon {
+  color: var(--text-color);
+}
+#light .home__social-icon:hover {
+  color: var(--text-color-active);
+}
+#dark .home__social-icon:hover {
+  color: var(--text-color-active);
+}
