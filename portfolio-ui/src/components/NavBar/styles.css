@@ -28,7 +28,6 @@
 .nav__list {
   display: flex;
   column-gap: 2rem;
-  height: 24px;
 }
 
 .nav__link {
