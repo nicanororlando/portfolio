@@ -1,4 +1,13 @@
 /*------------------------------ MARGIN --------------------------------*/
+.ml--10 {
+  margin-left: -10px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.mr-20 {
+  margin-right: 10px;
+}
 .mt-100 {
   margin-top: 100px;
 }
@@ -11,6 +20,9 @@
 
 /* sm */
 @media screen and (max-width: 768px) {
+  .hide-sm {
+    display: none;
+  }
   .mt-sm-10 {
     margin-top: 10px;
   }

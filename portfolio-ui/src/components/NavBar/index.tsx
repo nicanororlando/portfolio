@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./styles.css";
 import { useTheme } from "hooks/useTheme";
+import Dropdown from "components/Dropdown";
 
 // interface Props {
 //   children: React.ReactNode;
@@ -45,12 +46,13 @@ const NavBar: React.FC = () => {
                     <i className="uil uil-scenery nav__icon"></i> Portfolio
                   </a>
                 </li>
-                <li className="nav__item">
+                <li className="nav__item mr-20">
                   <a href="#contact" className="nav__link">
                     <i className="uil uil-message nav__icon"></i> Contact
                   </a>
                 </li>
-                <div className="toggle-switch nav__item">
+                <Dropdown options={["English", "Spanish"]} />
+                <div className="toggle-switch nav__item ml--10">
                   <label>
                     <input
                       type="checkbox"

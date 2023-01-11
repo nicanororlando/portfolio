@@ -58,6 +58,9 @@
 
   --button-color: hsl(var(--hue), var(--sat), 80%);
   --button-color-active: hsl(var(--hue), var(--sat), 70%);
+
+  --dropdown-item-bg-color: hsl(var(--hue), var(--sat), 98%);
+  --dropdown-item-bg-color-hover: hsl(var(--hue), var(--sat), 95%);
 }
 
 #dark {
@@ -80,6 +83,9 @@
 
   --button-color: hsl(var(--hue), var(--sat), 20%);
   --button-color-active: hsl(var(--hue), var(--sat), 30%);
+
+  --dropdown-item-bg-color: hsl(var(--hue), var(--sat), 2%);
+  --dropdown-item-bg-color-hover: hsl(var(--hue), var(--sat), 10%);
 }
 
 /* Responsive typography */
