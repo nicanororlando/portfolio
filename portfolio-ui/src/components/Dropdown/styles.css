@@ -42,6 +42,7 @@
 
 .dropdown-list-item:hover {
   background-color: var(--dropdown-item-bg-color-hover);
+  border-radius: 0.375rem;
 }
 
 @media screen and (max-width: 768px) {

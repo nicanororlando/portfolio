@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 import Social from "fragments/Social";
-import Data from "fragments/HomeData";
+import HomeData from "fragments/HomeData";
 
 const Home: React.FC = () => {
   return (
@@ -12,7 +12,7 @@ const Home: React.FC = () => {
 
           <div className="home__img"></div>
 
-          <Data />
+          <HomeData />
         </div>
       </div>
     </section>

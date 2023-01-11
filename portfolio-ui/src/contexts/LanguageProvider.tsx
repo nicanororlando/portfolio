@@ -18,6 +18,7 @@ export interface ILanguage {
   };
   home: {
     data: {
+      home_subtitle: string;
       home_description: string;
       hello_button: string;
     };
@@ -63,10 +64,13 @@ export const LanguageProvider: React.FC<Props> = ({ children }) => {
     setIdiom(idiomSelected);
     const element = document.getElementsByTagName("html");
     element[0].lang = idiomSelected;
+    // console.log(element[0].lang);
   }, []);
 
   const language = useMemo(() => {
     const checkIdiom = localStorage.getItem("language");
+    // console.log(checkIdiom);
+
     if (checkIdiom !== idiom) {
       const lang = pathname.slice(1, 3);
       if (lang !== "en" && lang !== "es" && lang !== "pt") {
