@@ -61,6 +61,8 @@
 
   --dropdown-item-bg-color: hsl(var(--hue), var(--sat), 98%);
   --dropdown-item-bg-color-hover: hsl(var(--hue), var(--sat), 95%);
+
+  --background-photo: url(../assets/Foto-mia-b&w-lightmode.jpg);
 }
 
 #dark {
@@ -86,6 +88,8 @@
 
   --dropdown-item-bg-color: hsl(var(--hue), var(--sat), 2%);
   --dropdown-item-bg-color-hover: hsl(var(--hue), var(--sat), 10%);
+
+  --background-photo: url(../assets/Foto-mia-b&w-darkmode.jpg);
 }
 
 /* Responsive typography */
@@ -98,5 +102,16 @@
     --normal-font-size: 0.938rem;
     --small-font-size: 0.81rem;
     --smaller-font-size: 0.75 rem;
+  }
+}
+
+/* xs */
+@media screen and (max-width: 576px) {
+}
+
+/* xxs */
+@media screen and (max-width: 350px) {
+  :root {
+    --big-font-size: 2.25rem;
   }
 }

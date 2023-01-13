@@ -1,7 +1,8 @@
 import React from "react";
+import Social from "./Social";
+import HomeData from "./HomeData";
+import ScrollDown from "./ScrollDown";
 import "./styles.css";
-import Social from "fragments/Social";
-import HomeData from "fragments/HomeData";
 
 const Home: React.FC = () => {
   return (
@@ -9,11 +10,10 @@ const Home: React.FC = () => {
       <div className="home__container grid">
         <div className="home__content grid">
           <Social />
-
           <div className="home__img"></div>
-
           <HomeData />
         </div>
+        <ScrollDown />
       </div>
     </section>
   );

@@ -9,15 +9,10 @@
   margin: 5px;
   text-align: center;
 }
-#light .home__social-icon {
+.home__social-icon {
   color: var(--text-color);
 }
-#dark .home__social-icon {
-  color: var(--text-color);
-}
-#light .home__social-icon:hover {
-  color: var(--text-color-active);
-}
-#dark .home__social-icon:hover {
+
+.home__social-icon:hover {
   color: var(--text-color-active);
 }

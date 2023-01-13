@@ -1,0 +1,59 @@
+.home__scroll {
+  margin-left: 9.25rem;
+}
+
+.wheel {
+  animation: scroll 2s ease infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(3.75rem);
+  }
+}
+
+.home__scroll-name {
+  color: var(--text-color);
+  font-weight: var(--font-medium);
+  margin-right: 0.25rem;
+  margin-left: 2px;
+}
+.home__scroll-name:hover {
+  color: var(--text-color-active);
+}
+
+.home__scroll-arrow {
+  font-size: 1.25rem;
+  color: var(--title-color);
+}
+
+/*------------------------------ BREAKPOINTS --------------------------------*/
+
+/* md */
+@media screen and (max-width: 992px) {
+  .home__scroll {
+    margin-left: 7.5rem;
+  }
+}
+
+/* sm */
+@media screen and (max-width: 768px) {
+  .home__scroll {
+    display: none;
+  }
+}
+
+/* xs */
+@media screen and (max-width: 576px) {
+}
+
+/* xxs */
+@media screen and (max-width: 350px) {
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}

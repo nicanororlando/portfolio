@@ -9,9 +9,22 @@
   },
   "home": {
     "data": {
-      "home_subtitle": "Desarrollador Junior Full Stack",
+      "home_subtitle": "Desarrollador Junior FullStack",
       "home_description": "Soy desarrollador web Full Stack, creativo y de rapido aprendizaje.",
       "hello_button": "Saludame"
+    },
+    "scrollDown": "Ir abajo"
+  },
+  "about": {
+    "section_title": "Acerca de mi",
+    "section_subTitle": "Mi introduccion",
+    "about_data": {
+      "about_description": "Desarrollador frontend y backend, creo páginas web con interfaz de usuario UI/UX, y tambien aplicaciones del lado del servidor. Busco seguir aprendiendo y ganando experiencia.",
+      "download": "Descargar CV",
+      "experience": "Experiencia",
+      "years": "1+ Años Trabajando",
+      "completed": "Completados",
+      "proyects_amount": "12+ Proyectos"
     }
   }
 }

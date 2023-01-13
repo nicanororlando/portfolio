@@ -12,6 +12,19 @@
       "home_subtitle": "Junior Full Stack Developer",
       "home_description": "I'm creative designer based in Argentina, and I'm very passionate and dedicated to my work.",
       "hello_button": "Say hello"
+    },
+    "scrollDown": "Scroll Down"
+  },
+  "about": {
+    "section_title": "About me",
+    "section_subTitle": "My introduccion",
+    "about_data": {
+      "about_description": "Frontend and backend developer, I create web pages with UI/UX user interface, and also server-side applications. I seek to continue learning and gaining experience.",
+      "download": "Download CV",
+      "experience": "Experience",
+      "years": "1+ Years Working",
+      "completed": "Completed",
+      "proyects_amount": "12+ Proyects"
     }
   }
 }

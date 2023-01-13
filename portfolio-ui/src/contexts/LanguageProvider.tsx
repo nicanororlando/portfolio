@@ -1,3 +1,4 @@
+import { ILanguage } from "data/Languages/ILanguage";
 import React, {
   createContext,
   useCallback,
@@ -6,24 +7,6 @@ import React, {
   useLayoutEffect,
 } from "react";
 import { useLocation, useHistory } from "react-router-dom";
-
-export interface ILanguage {
-  navBar: {
-    home: string;
-    about: string;
-    skills: string;
-    services: string;
-    portfolio: string;
-    contact: string;
-  };
-  home: {
-    data: {
-      home_subtitle: string;
-      home_description: string;
-      hello_button: string;
-    };
-  };
-}
 
 export interface LanguageContextData {
   language: ILanguage;
@@ -64,16 +47,14 @@ export const LanguageProvider: React.FC<Props> = ({ children }) => {
     setIdiom(idiomSelected);
     const element = document.getElementsByTagName("html");
     element[0].lang = idiomSelected;
-    // console.log(element[0].lang);
   }, []);
 
   const language = useMemo(() => {
     const checkIdiom = localStorage.getItem("language");
-    // console.log(checkIdiom);
 
     if (checkIdiom !== idiom) {
       const lang = pathname.slice(1, 3);
-      if (lang !== "en" && lang !== "es" && lang !== "pt") {
+      if (lang !== "en" && lang !== "es") {
         history.push(`${process.env.PUBLIC_URL}/${idiom}${pathname}`);
       } else {
         history.push(`${process.env.PUBLIC_URL}/${idiom}${pathname.slice(3)}`);
