@@ -1,0 +1,37 @@
+.about__container {
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  column-gap: 4rem;
+}
+.about__img {
+  background: var(--background-photo);
+  background-position: center;
+  background-size: cover;
+  justify-self: center;
+  border-radius: 1.5rem;
+  width: 350px;
+  height: 350px;
+}
+
+/*------------------------------ BREAKPOINTS --------------------------------*/
+
+/* md */
+@media screen and (max-width: 992px) {
+  .about__container {
+    grid-template-columns: 1fr;
+    row-gap: 2.5rem;
+  }
+
+  .about__img {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+/* sm */
+@media screen and (max-width: 768px) {
+}
+
+/* xxs */
+@media screen and (max-width: 350px) {
+}

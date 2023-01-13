@@ -16,15 +16,30 @@
     "scrollDown": "Ir abajo"
   },
   "about": {
-    "section_title": "Acerca de mi",
-    "section_subTitle": "Mi introduccion",
+    "title": "Acerca de mi",
+    "subtitle": "Mi introduccion",
     "about_data": {
       "about_description": "Desarrollador frontend y backend, creo páginas web con interfaz de usuario UI/UX, y tambien aplicaciones del lado del servidor. Busco seguir aprendiendo y ganando experiencia.",
       "download": "Descargar CV",
-      "experience": "Experiencia",
-      "years": "1+ Años Trabajando",
-      "completed": "Completados",
-      "proyects_amount": "12+ Proyectos"
+      "box": {
+        "exp_title": "Experiencia",
+        "exp_subtitle": "1+ Años Trabajando",
+        "completed_title": "Completados",
+        "completed_subtitle": "12+ Proyectos",
+        "support_title": "Soporte",
+        "support_subtitle": "Online 24/7"
+      }
+    }
+  },
+  "skills": {
+    "title": "Habilidades",
+    "subtitle": "Mis habilidades tecnicas",
+    "frontend_title": "Desarrollador Frontend",
+    "backend_title": "Desarrollador Backend",
+    "levels": {
+      "basic": "Basico",
+      "intermediate": "Intermedio",
+      "advanced": "Avanzado"
     }
   }
 }

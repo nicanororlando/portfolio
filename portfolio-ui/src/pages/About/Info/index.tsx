@@ -1,5 +1,6 @@
 import { useLanguage } from "hooks/useLanguage";
 import React from "react";
+import "./styles.css";
 
 const Info = () => {
   const { language } = useLanguage();
@@ -7,20 +8,31 @@ const Info = () => {
   return (
     <div className="about__info grid">
       <div className="about__box">
-        <h3 className="about__title">{language.about.about_data.experience}</h3>
+        <i className="bx bx-award about__icon"></i>
+        <h3 className="about__title">
+          {language.about.about_data.box.exp_title}
+        </h3>
         <span className="about_subtitle">
-          {language.about.about_data.years}
+          {language.about.about_data.box.exp_subtitle}
         </span>
       </div>
       <div className="about__box">
-        <h3 className="about__title">{language.about.about_data.completed}</h3>
+        <i className="bx bx-briefcase-alt about__icon"></i>
+        <h3 className="about__title">
+          {language.about.about_data.box.completed_title}
+        </h3>
         <span className="about_subtitle">
-          {language.about.about_data.proyects_amount}
+          {language.about.about_data.box.completed_subtitle}
         </span>
       </div>
       <div className="about__box">
-        <h3 className="about__title"></h3>
-        <span className="about_subtitle"></span>
+        <i className="bx bx-support about__icon"></i>
+        <h3 className="about__title">
+          {language.about.about_data.box.support_title}
+        </h3>
+        <span className="about_subtitle">
+          {language.about.about_data.box.support_subtitle}
+        </span>
       </div>
     </div>
   );

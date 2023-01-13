@@ -3,6 +3,7 @@ import React from "react";
 import { useTheme } from "hooks/useTheme";
 import Home from "pages/Home";
 import About from "pages/About";
+import Skills from "pages/Skills";
 
 interface Props {
   children: React.ReactNode;
@@ -15,10 +16,11 @@ const Default: React.FC<Props> = ({ children }) => {
     <div id={theme}>
       <NavBar />
       <main>
-        <div className="container mt-100 mt-sm-10">
+        <div className="container">
           {/* {children} */}
           <Home />
           <About />
+          <Skills />
         </div>
       </main>
     </div>

@@ -6,7 +6,7 @@ import "./styles.css";
 
 const Home: React.FC = () => {
   return (
-    <section className="home pb-5">
+    <section className="home section" id="home">
       <div className="home__container grid">
         <div className="home__content grid">
           <Social />

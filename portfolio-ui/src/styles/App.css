@@ -60,6 +60,9 @@ img {
 }
 
 /*------------------------------Reusable CSS Clases--------------------------------*/
+.section {
+  padding: 6rem 0 2rem;
+}
 .section__title {
   font-size: var(--h1-font-size);
   color: var(--title-color);
@@ -116,7 +119,6 @@ img {
 .button__icon {
   margin-left: 0.5rem;
 }
-
 .button--flex {
   display: inline-flex;
   align-items: center;
@@ -134,7 +136,6 @@ img {
   .button {
     padding: 1rem 1.75rem;
   }
-
   .button__icon {
     width: 22px;
     height: 22px;
@@ -143,8 +144,15 @@ img {
 
 /* sm */
 @media screen and (max-width: 768px) {
+  body {
+    margin: 0 0 var(--header-height) 0;
+  }
+
   .section {
     padding: 2rem 0 4rem;
+  }
+  .section__subtitle {
+    margin-bottom: 3rem;
   }
 }
 
