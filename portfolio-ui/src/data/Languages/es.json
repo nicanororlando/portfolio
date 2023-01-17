@@ -16,8 +16,8 @@
     "scrollDown": "Ir abajo"
   },
   "about": {
-    "title": "Acerca de mi",
-    "subtitle": "Mi introduccion",
+    "section_title": "Acerca de mi",
+    "section_subtitle": "Mi introduccion",
     "about_data": {
       "about_description": "Desarrollador frontend y backend, creo páginas web con interfaz de usuario UI/UX, y tambien aplicaciones del lado del servidor. Busco seguir aprendiendo y ganando experiencia.",
       "download": "Descargar CV",
@@ -32,14 +32,92 @@
     }
   },
   "skills": {
-    "title": "Habilidades",
-    "subtitle": "Mis habilidades tecnicas",
+    "section_title": "Habilidades",
+    "section_subtitle": "Mis habilidades tecnicas",
     "frontend_title": "Desarrollador Frontend",
     "backend_title": "Desarrollador Backend",
     "levels": {
       "basic": "Basico",
       "intermediate": "Intermedio",
       "advanced": "Avanzado"
+    }
+  },
+  "services": {
+    "section_title": "Servicios",
+    "section_subtitle": "Que puedo ofrecer",
+    "view_more": "Ver mas",
+    "service_1": {
+      "services_title_1": "Desarrollador",
+      "services_title_2": "Front End",
+      "modal": {
+        "title": "Desarrollador Front End",
+        "description": "Servicio con mas de 1 año de experiencia. Proporciono un trabajo de calidad a clientes y empresas.",
+        "grid_title": "Tecnologias:",
+        "ul": {
+          "p1": "HTML, CSS, BootStrap",
+          "p2": "React | Angularjs",
+          "p3": "Typescript"
+        }
+      }
+    },
+    "service_2": {
+      "services_title_1": "Desarrollador",
+      "services_title_2": "Back End",
+      "modal": {
+        "title": "Desarrollador Back End",
+        "description": "Servicio con 1 año de experiencia. Creación de Rest APIs y Microservicios, con sus propias bases de datos.",
+        "grid_title": "Lenguajes y Frameworks:",
+        "ul": {
+          "p1": "Java --> Spring Boot, Spring Boot MVC, Spring WebFlux",
+          "p2": "C# --> .NET",
+          "p3": "MongoDb como principal base"
+        }
+      }
+    },
+    "service_3": {
+      "services_title_1": "Testeo de",
+      "services_title_2": "Codigo",
+      "modal": {
+        "title": "Testeo de Codigo",
+        "description": "Para asegurar que el código funciona correctamente y que es seguro para no tener problemas en el futuro.",
+        "grid_title": "Tecnologias:",
+        "ul": {
+          "p1": "Jasmine para testear el Front End",
+          "p2": "Java para testear el Back End"
+        }
+      }
+    }
+  },
+  "contact": {
+    "section_title": "string",
+    "section_subtitle": "string",
+    "h3_title_1": "string",
+    "wpp": "https://bit.ly/canor-wpp-sp",
+    "mail": "mailto:nicanororlando@gmail.com",
+    "instagram": "https://ig.me/m/nicanororlando",
+    "card_1": {
+      "title": "string",
+      "data": "string",
+      "write_me": "string"
+    },
+    "card_2": {
+      "title": "string",
+      "data": "string",
+      "write_me": "string"
+    },
+    "card_3": {
+      "title": "string",
+      "data": "string",
+      "write_me": "string"
+    },
+    "h3_title_form": "asd",
+    "form": {
+      "name": "Nombre",
+      "name_placeholder": "Ingrese su nombre",
+      "mail": "Mail",
+      "mail_placeholder": "Ingrese si mail",
+      "project": "Proyecto",
+      "project_placehoder": "Escriba su proyecto"
     }
   }
 }

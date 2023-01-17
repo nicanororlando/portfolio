@@ -10,8 +10,10 @@ const About: React.FC = () => {
 
   return (
     <section className="about section" id="about">
-      <h2 className="section__title">{language.about.title}</h2>
-      <span className="section__subtitle">{language.about.subtitle}</span>
+      <h2 className="section__title">{language.about.section_title}</h2>
+      <span className="section__subtitle">
+        {language.about.section_subtitle}
+      </span>
       <div className="about__container container grid">
         <div className="about__img"></div>
         <div className="about__data">

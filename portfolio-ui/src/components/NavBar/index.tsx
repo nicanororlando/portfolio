@@ -3,6 +3,7 @@ import "./styles.css";
 import { useTheme } from "hooks/useTheme";
 import Dropdown from "components/Dropdown";
 import { useLanguage } from "hooks/useLanguage";
+import { Header } from "./styles";
 
 // interface Props {
 //   children: React.ReactNode;
@@ -22,7 +23,7 @@ const NavBar: React.FC = () => {
 
   return (
     <div className="d-flex flex-column p-10">
-      <header className="header">
+      <Header>
         <nav className="header__nav container">
           <a href="index.html" className="nav__logo">
             Nicanor
@@ -93,7 +94,7 @@ const NavBar: React.FC = () => {
             <i className="uil uil-apps"></i>
           </div>
         </nav>
-      </header>
+      </Header>
     </div>
   );
 };

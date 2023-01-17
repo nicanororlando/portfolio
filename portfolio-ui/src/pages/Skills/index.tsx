@@ -9,8 +9,10 @@ const Skills = () => {
 
   return (
     <section className="skills section" id="skills">
-      <h2 className="section__title">{language.skills.title}</h2>
-      <span className="section__subtitle">{language.skills.subtitle}</span>
+      <h2 className="section__title">{language.skills.section_title}</h2>
+      <span className="section__subtitle">
+        {language.skills.section_subtitle}
+      </span>
       <div className="skills__container container grid">
         <Frontend />
         <Backend />

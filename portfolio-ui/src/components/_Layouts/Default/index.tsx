@@ -4,6 +4,9 @@ import { useTheme } from "hooks/useTheme";
 import Home from "pages/Home";
 import About from "pages/About";
 import Skills from "pages/Skills";
+import Services from "pages/Services";
+import Qualification from "pages/Qualification";
+import Contact from "pages/Contact";
 
 interface Props {
   children: React.ReactNode;
@@ -21,6 +24,9 @@ const Default: React.FC<Props> = ({ children }) => {
           <Home />
           <About />
           <Skills />
+          <Services />
+          <Qualification />
+          <Contact />
         </div>
       </main>
     </div>
