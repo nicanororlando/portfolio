@@ -2,19 +2,8 @@ import React, { useCallback, useState } from "react";
 import { useTheme } from "hooks/useTheme";
 import Dropdown from "components/Dropdown";
 import { useLanguage } from "hooks/useLanguage";
-import {
-  Container,
-  DarkLightToggler,
-  Header,
-  Nav,
-  NavMenu,
-  NavList,
-} from "./styles";
-// import "./styles.css";
-
-// interface Props {
-//   children: React.ReactNode;
-// }
+import { Container, Header, Nav, NavMenu, NavList } from "./styles";
+import DarkLightToggler from "components/DarkLightToggler";
 
 const NavBar: React.FC = () => {
   const [ToggleMenu, showMenu] = useState(false);
@@ -79,16 +68,11 @@ const NavBar: React.FC = () => {
                   onSelect={onSelectOption}
                   value={idiom}
                 />
-                <DarkLightToggler className="hide-sm ml--10">
-                  <label>
-                    <input
-                      type="checkbox"
-                      checked={!themeChecked}
-                      onChange={handleTheme}
-                    />
-                    <span className="slider" />
-                  </label>
-                </DarkLightToggler>
+                <DarkLightToggler
+                  className="hide-sm ml--10"
+                  checked={themeChecked}
+                  onChange={handleTheme}
+                />
               </ul>
               <i
                 className="uil uil-times nav__close"
