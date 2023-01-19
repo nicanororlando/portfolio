@@ -89,7 +89,8 @@ export const NavList = styled.div`
   }
 
   .nav__icon,
-  .nav__close {
+  .nav__close,
+  .toggler {
     display: none;
   }
 
@@ -125,13 +126,19 @@ export const NavList = styled.div`
       font-size: 1.2rem;
     }
 
-    .nav__close {
+    .toggler,
+    .nav__close,
+    .dropdown-container {
       display: flex;
       justify-content: end;
-      margin-top: 30px;
+      margin: 30px 0 10px 10px;
       font-size: 1.5rem;
       cursor: pointer;
       color: var(--title-color);
+    }
+
+    ul .dropdown-container {
+      display: none;
     }
 
     #light .nav__close:hover {

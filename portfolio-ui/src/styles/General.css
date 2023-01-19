@@ -24,7 +24,7 @@
 /* sm */
 @media screen and (max-width: 768px) {
   .hide-sm {
-    display: none;
+    display: none !important;
   }
   .mt-sm-10 {
     margin-top: 10px;

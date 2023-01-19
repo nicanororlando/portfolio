@@ -1,9 +1,9 @@
 import React from "react";
 import { useLanguage } from "hooks/useLanguage";
 import Card from "components/Card";
-import "./styles.css";
+import "./styles";
 
-const Contact = () => {
+const Contact: React.FC = () => {
   const { language } = useLanguage();
 
   return (
@@ -69,13 +69,14 @@ const Contact = () => {
             </div>
             <div className="contact__form-div">
               <label htmlFor="" className="contact__form-tag">
-                {language.contact.form.mail}
+                {language.contact.form.project}
               </label>
               <textarea
                 name="project"
                 cols={30}
                 rows={10}
                 className="contact__form-input"
+                placeholder={language.contact.form.project_placeholder}
               ></textarea>
             </div>
           </form>

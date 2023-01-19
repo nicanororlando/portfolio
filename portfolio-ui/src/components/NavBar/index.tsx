@@ -74,10 +74,22 @@ const NavBar: React.FC = () => {
                   onChange={handleTheme}
                 />
               </ul>
-              <i
-                className="uil uil-times nav__close"
-                onClick={() => showMenu(!ToggleMenu)}
-              ></i>
+              <div className="d-flex flex-row justify-content-between">
+                <DarkLightToggler
+                  className="toggler ml--10"
+                  checked={themeChecked}
+                  onChange={handleTheme}
+                />
+                {/* <Dropdown
+                  options={["es", "en"]}
+                  onSelect={onSelectOption}
+                  value={idiom}
+                /> */}
+                <i
+                  className="uil uil-times nav__close"
+                  onClick={() => showMenu(!ToggleMenu)}
+                ></i>
+              </div>
             </NavList>
           </NavMenu>
 

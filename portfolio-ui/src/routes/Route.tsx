@@ -1,6 +1,10 @@
 import React, { FC, ComponentType, useMemo } from "react";
-import { RouteProps as ReactDOMRouterProps } from "react-router-dom";
 import Default from "components/_Layouts/Default";
+import {
+  Route as ReactDOMRoute,
+  RouteProps as ReactDOMRouterProps,
+  Redirect,
+} from "react-router-dom";
 
 interface RouteProps extends ReactDOMRouterProps {
   isPrivate?: boolean;
@@ -12,38 +16,27 @@ const Route: FC<RouteProps> = ({
   component: Component,
   ...rest
 }) => {
-  // const { user } = useAuth();
-
   const Layout = useMemo(() => {
     return isPrivate ? Default : Default;
   }, [isPrivate]);
 
   return (
-    <Layout>
-      <Component />
-    </Layout>
-    // <ReactDOMRoute
-    // {...rest}
-    // render={({ location }) => {
-    //   let lang = location.pathname.slice(1, 3);
-    //   if (lang !== "/en" && lang !== "/es") {
-    //     lang = "";
-    //   }
+    <ReactDOMRoute
+      render={({ location }) => {
+        let lang = location.pathname.slice(1, 3);
+        console.log(lang);
 
-    // return isPrivate === !!user ? (
-    //   <Layout>
-    //     <Component />
-    //   </Layout>
-    // ) : (
-    //   <Redirect
-    //     to={{
-    //       pathname: isPrivate ? `${lang}/` : `${lang}/dashboard`,
-    //       state: location,
-    //     }}
-    //   />
-    // );
-    // }}
-    // />
+        if (lang !== "/en" && lang !== "/es") {
+          lang = "/en";
+        }
+
+        return (
+          <Layout>
+            <Component />
+          </Layout>
+        );
+      }}
+    />
   );
 };
 
