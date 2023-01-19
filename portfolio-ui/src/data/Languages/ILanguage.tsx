@@ -122,7 +122,7 @@ export interface ILanguage {
       mail: string;
       mail_placeholder: string;
       project: string;
-      project_placehoder: string;
+      project_placeholder: string;
     };
   };
 }
