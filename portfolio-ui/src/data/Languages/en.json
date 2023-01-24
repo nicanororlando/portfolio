@@ -90,7 +90,41 @@
   },
   "portfolio": {
     "section_title": "Qualification",
-    "section_subtitle": "My personal journey"
+    "section_subtitle": "My personal journey",
+    "education": {
+      "first": {
+        "title": "Electronic Engeieering",
+        "subtitle": "UTN FRC",
+        "date": "2018 - 2020"
+      },
+      "second": {
+        "title": "Front End Development",
+        "subtitle": "Argentina - By myself",
+        "date": "2021 - Present"
+      },
+      "third": {
+        "title": "Back End Development",
+        "subtitle": "Argentina - By myself",
+        "date": "2022 - Present"
+      }
+    },
+    "experience": {
+      "first": {
+        "title": "Android | iOS App",
+        "subtitle": "Instituto Misionero",
+        "date": "January 2022 - February 2022"
+      },
+      "second": {
+        "title": "Front end Development",
+        "subtitle": "Kemis",
+        "date": "April 2022 - August 2022"
+      },
+      "third": {
+        "title": "Full Stack Development",
+        "subtitle": "Freelance",
+        "date": "2022 - Present"
+      }
+    }
   },
   "contact": {
     "section_title": "Get in touch",

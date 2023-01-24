@@ -92,6 +92,40 @@ export interface ILanguage {
   portfolio: {
     section_title: string;
     section_subtitle: string;
+    education: {
+      first: {
+        title: string;
+        subtitle: string;
+        date: string;
+      };
+      second: {
+        title: string;
+        subtitle: string;
+        date: string;
+      };
+      third: {
+        title: string;
+        subtitle: string;
+        date: string;
+      };
+    };
+    experience: {
+      first: {
+        title: string;
+        subtitle: string;
+        date: string;
+      };
+      second: {
+        title: string;
+        subtitle: string;
+        date: string;
+      };
+      third: {
+        title: string;
+        subtitle: string;
+        date: string;
+      };
+    };
   };
   contact: {
     section_title: string;

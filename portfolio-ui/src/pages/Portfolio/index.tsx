@@ -53,12 +53,16 @@ const Portfolio: React.FC = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web development</h3>
+                <h3 className="qualification__title">
+                  {language.portfolio.education.first.title}
+                </h3>
                 <span className="qualification__subtitle">
-                  Argentina - By myself
+                  {language.portfolio.education.first.subtitle}
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt">2021 - Present</i>
+                  <i className="uil uil-calendar-alt">
+                    {language.portfolio.education.first.date}
+                  </i>
                 </div>
               </div>
 
@@ -77,49 +81,38 @@ const Portfolio: React.FC = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Art Director</h3>
+                <h3 className="qualification__title">
+                  {language.portfolio.education.second.title}
+                </h3>
                 <span className="qualification__subtitle">
-                  Argentina - By myself
+                  {language.portfolio.education.second.subtitle}
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt">2021 - Present</i>
+                  <i className="uil uil-calendar-alt">
+                    {language.portfolio.education.second.date}
+                  </i>
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web development</h3>
+                <h3 className="qualification__title">
+                  {language.portfolio.education.third.title}
+                </h3>
                 <span className="qualification__subtitle">
-                  Argentina - By myself
+                  {language.portfolio.education.third.subtitle}
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt">2021 - Present</i>
+                  <i className="uil uil-calendar-alt">
+                    {language.portfolio.education.third.date}
+                  </i>
                 </div>
               </div>
 
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div></div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-
-              <div>
-                <h3 className="qualification__title">Art Director</h3>
-                <span className="qualification__subtitle">
-                  Argentina - By myself
-                </span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt">2021 - Present</i>
-                </div>
               </div>
             </div>
           </div>
@@ -133,12 +126,16 @@ const Portfolio: React.FC = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web development</h3>
+                <h3 className="qualification__title">
+                  {language.portfolio.experience.first.title}
+                </h3>
                 <span className="qualification__subtitle">
-                  Argentina - By myself
+                  {language.portfolio.experience.first.subtitle}
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt">2021 - Present</i>
+                  <i className="uil uil-calendar-alt">
+                    {language.portfolio.experience.first.date}
+                  </i>
                 </div>
               </div>
 
@@ -157,24 +154,32 @@ const Portfolio: React.FC = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Art Director</h3>
+                <h3 className="qualification__title">
+                  {language.portfolio.experience.second.title}
+                </h3>
                 <span className="qualification__subtitle">
-                  Argentina - By myself
+                  {language.portfolio.experience.second.subtitle}
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt">2021 - Present</i>
+                  <i className="uil uil-calendar-alt">
+                    {language.portfolio.experience.second.date}
+                  </i>
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web development</h3>
+                <h3 className="qualification__title">
+                  {language.portfolio.experience.third.title}
+                </h3>
                 <span className="qualification__subtitle">
-                  Argentina - By myself
+                  {language.portfolio.experience.third.subtitle}
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt">2021 - Present</i>
+                  <i className="uil uil-calendar-alt">
+                    {language.portfolio.experience.third.date}
+                  </i>
                 </div>
               </div>
 
