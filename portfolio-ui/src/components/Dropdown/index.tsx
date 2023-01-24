@@ -20,9 +20,7 @@ const Dropdown: React.FC<DropdownProps> = ({ options, onSelect, value }) => {
     setIsOpen(false);
   };
 
-  const toggleDropdown = () => {
-    setIsOpen(!isOpen);
-  };
+  const toggleDropdown = () => setIsOpen(!isOpen);
 
   const handleClick = (event: MouseEvent) => {
     if (
@@ -42,7 +40,7 @@ const Dropdown: React.FC<DropdownProps> = ({ options, onSelect, value }) => {
   }, []);
 
   return (
-    <div ref={dropdownRef} className="dropdown-container hide-sm">
+    <div ref={dropdownRef} className="dropdown-container">
       <button
         className="dropdown-button d-flex flex-row"
         onClick={toggleDropdown}

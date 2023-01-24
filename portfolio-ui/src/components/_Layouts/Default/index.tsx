@@ -5,8 +5,9 @@ import Home from "pages/Home";
 import About from "pages/About";
 import Skills from "pages/Skills";
 import Services from "pages/Services";
-import Qualification from "pages/Qualification";
+import Portfolio from "pages/Portfolio";
 import Contact from "pages/Contact";
+import Footer from "pages/Footer";
 
 interface Props {
   children: React.ReactNode;
@@ -25,8 +26,9 @@ const Default: React.FC<Props> = ({ children }) => {
           <About />
           <Skills />
           <Services />
-          <Qualification />
+          <Portfolio />
           <Contact />
+          <Footer />
         </div>
       </main>
     </div>
