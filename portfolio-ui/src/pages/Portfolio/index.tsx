@@ -3,17 +3,17 @@ import "./styles.css";
 import { useLanguage } from "hooks/useLanguage";
 import { useState } from "react";
 
-const Qualification: React.FC = () => {
+const Portfolio: React.FC = () => {
   const { language } = useLanguage();
   const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index: number) => setToggleState(index);
 
   return (
-    <section className="qualification section">
-      <h2 className="section__title">{language.services.section_title}</h2>
+    <section className="qualification section" id="portfolio">
+      <h2 className="section__title">{language.portfolio.section_title}</h2>
       <span className="section__subtitle">
-        {language.services.section_subtitle}
+        {language.portfolio.section_subtitle}
       </span>
 
       <div className="qualification__container container">
@@ -190,4 +190,4 @@ const Qualification: React.FC = () => {
   );
 };
 
-export default Qualification;
+export default Portfolio;

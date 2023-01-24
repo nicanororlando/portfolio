@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.css";
+import { Container } from "./styles";
 
 interface Info {
   cardTitle: string;
@@ -17,14 +17,14 @@ const Card: React.FC<Info> = ({
   href,
 }) => {
   return (
-    <div className="card-container">
+    <Container>
       <i className={"bx card-icon " + icon}></i>
       <h3 className="card-title">{cardTitle}</h3>
       <span className="card-data">{cardData}</span>
       <a href={href} target="_blank" rel="noreferrer" className="card-button">
         {cardButton} <i className="bx bx-right-arrow-alt button-icon"></i>
       </a>
-    </div>
+    </Container>
   );
 };
 

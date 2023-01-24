@@ -89,7 +89,7 @@ export interface ILanguage {
       };
     };
   };
-  qualifications: {
+  portfolio: {
     section_title: string;
     section_subtitle: string;
   };
@@ -123,6 +123,12 @@ export interface ILanguage {
       mail_placeholder: string;
       project: string;
       project_placeholder: string;
+      button: string;
+      form_msg: {
+        API_Error: string;
+        fields_error: string;
+        success: string;
+      };
     };
   };
 }

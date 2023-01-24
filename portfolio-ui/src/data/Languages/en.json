@@ -88,40 +88,46 @@
       }
     }
   },
-  "qualifications": {
-    "section_title": "string",
-    "section_subtitle": "string"
+  "portfolio": {
+    "section_title": "Qualification",
+    "section_subtitle": "My personal journey"
   },
   "contact": {
-    "section_title": "string",
-    "section_subtitle": "string",
-    "h3_title_1": "string",
+    "section_title": "Get in touch",
+    "section_subtitle": "Contact me",
+    "h3_title": "Talk to me",
     "wpp": "https://bit.ly/canor-wpp-en",
     "mail": "mailto:nicanororlando@gmail.com",
     "instagram": "https://ig.me/m/nicanororlando",
     "card_1": {
-      "title": "string",
-      "data": "string",
-      "write_me": "string"
+      "title": "Email",
+      "data": "nicanororlando@gmail.com",
+      "write_me": "¡Write me!"
     },
     "card_2": {
-      "title": "string",
-      "data": "string",
-      "write_me": "string"
+      "title": "WhatsApp",
+      "data": "+54 3435074655",
+      "write_me": "¡Write me!"
     },
     "card_3": {
-      "title": "string",
-      "data": "string",
-      "write_me": "string"
+      "title": "Instagram",
+      "data": "@nicanororlando",
+      "write_me": "¡Write me!"
     },
-    "h3_title_form": "asd",
+    "h3_title_form": "Write me your project",
     "form": {
-      "name": "Name",
+      "name": "Name *",
       "name_placeholder": "Insert your name",
-      "mail": "mail",
+      "mail": "Mail *",
       "mail_placeholder": "Insert your mail",
-      "project": "Project",
-      "project_placeholder": "Write your project"
+      "project": "Project *",
+      "project_placeholder": "Write your project",
+      "button": "Send message",
+      "form_msg": {
+        "API_Error": "¡Error, please try again!",
+        "fields_error": "¡Please complete all the fields!",
+        "success": "¡Done!"
+      }
     }
   }
 }
