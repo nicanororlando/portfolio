@@ -55,9 +55,9 @@ export const LanguageProvider: React.FC<Props> = ({ children }) => {
     if (checkIdiom !== idiom) {
       const lang = pathname.slice(1, 3);
       if (lang !== "en" && lang !== "es") {
-        history.push(`${process.env.PUBLIC_URL}/${idiom}${pathname}`);
+        history.push(`${process.env.PUBLIC_URL}/${idiom}`);
       } else {
-        history.push(`${process.env.PUBLIC_URL}/${idiom}${pathname.slice(3)}`);
+        history.push(`${process.env.PUBLIC_URL}/${idiom}`);
       }
     }
 
