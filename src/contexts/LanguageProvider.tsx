@@ -27,19 +27,24 @@ export const LanguageProvider: React.FC<Props> = ({ children }) => {
   const { pathname } = useLocation();
   const history = useHistory();
   const [idiom, setIdiom] = useState(() => {
-    let lang = pathname.slice(1, 3);
+    let lang = pathname.slice(11, 13);
     if (lang !== "es") {
       lang = localStorage.getItem("language") || "en";
     }
     const element = document.getElementsByTagName("html");
     element[0].lang = lang;
+
     return lang;
   });
 
   useLayoutEffect(() => {
     const idiomSelected = pathname.slice(1).split("/");
-    if (idiomSelected[0].length === 2) {
-      setIdiom(idiomSelected[0]);
+    if (idiomSelected[1]) {
+      if (idiomSelected[1].length === 2) {
+        setIdiom(idiomSelected[1]);
+      }
+    } else {
+      setIdiom("en");
     }
   }, [pathname]);
 
@@ -53,7 +58,8 @@ export const LanguageProvider: React.FC<Props> = ({ children }) => {
     const checkIdiom = localStorage.getItem("language");
 
     if (checkIdiom !== idiom) {
-      const lang = pathname.slice(1, 3);
+      const lang = pathname.slice(11, 13);
+
       if (lang !== "en" && lang !== "es") {
         history.push(`${process.env.PUBLIC_URL}/${idiom}`);
       } else {

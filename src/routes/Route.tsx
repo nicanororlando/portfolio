@@ -23,11 +23,10 @@ const Route: FC<RouteProps> = ({
   return (
     <ReactDOMRoute
       render={({ location }) => {
-        let lang = location.pathname.slice(1, 3);
-        console.log(lang);
+        let lang = location.pathname.slice(11, 13);
 
-        if (lang !== "/en" && lang !== "/es") {
-          lang = "/en";
+        if (lang !== "en" && lang !== "es") {
+          lang = "en";
         }
 
         return (
