@@ -10,7 +10,7 @@
   "home": {
     "data": {
       "home_subtitle": "Junior Full Stack Developer",
-      "home_description": "I'm creative designer based in Argentina, and I'm very passionate and dedicated to my work.",
+      "home_description": "I'm creative web developer based in Argentina, and I'm very passionate and dedicated to my work.",
       "hello_button": "Say hello"
     },
     "scrollDown": "Scroll Down"
@@ -94,7 +94,7 @@
     "education": {
       "first": {
         "title": "Electronic Engeieering",
-        "subtitle": "UTN FRC",
+        "subtitle": "UTN FRP",
         "date": "2018 - 2020"
       },
       "second": {
@@ -115,7 +115,7 @@
         "date": "January 2022 - February 2022"
       },
       "second": {
-        "title": "Front end Development",
+        "title": "Front End Development",
         "subtitle": "Kemis",
         "date": "April 2022 - August 2022"
       },

@@ -10,7 +10,7 @@
   "home": {
     "data": {
       "home_subtitle": "Desarrollador Junior FullStack",
-      "home_description": "Soy desarrollador web Full Stack, creativo y de rapido aprendizaje.",
+      "home_description": "Soy desarrollador web, creativo y de rapido aprendizaje.",
       "hello_button": "Saludame"
     },
     "scrollDown": "Ir abajo"
@@ -93,36 +93,36 @@
     "section_subtitle": "Mi viaje personal",
     "education": {
       "first": {
-        "title": "Electronic Engeieering",
-        "subtitle": "UTN FRC",
+        "title": "Ingenieria Electronica",
+        "subtitle": "UTN FRP",
         "date": "2018 - 2020"
       },
       "second": {
-        "title": "Front End Development",
-        "subtitle": "Argentina - By myself",
-        "date": "2021 - Present"
+        "title": "Desarrollo web Front End",
+        "subtitle": "Argentina - Autodidacta",
+        "date": "2021 - Presente"
       },
       "third": {
-        "title": "Back End Development",
-        "subtitle": "Argentina - By myself",
-        "date": "2022 - Present"
+        "title": "Desarrollo web Back End",
+        "subtitle": "Argentina - Autodidacta",
+        "date": "2022 - Presente"
       }
     },
     "experience": {
       "first": {
-        "title": "Android | iOS App",
+        "title": "Aplicacion Android | iOS",
         "subtitle": "Instituto Misionero",
-        "date": "January 2022 - February 2022"
+        "date": "Enero 2022 - Febrero 2022"
       },
       "second": {
-        "title": "Front end Development",
+        "title": "Desarrollador Front End",
         "subtitle": "Kemis",
-        "date": "April 2022 - August 2022"
+        "date": "Abril 2022 - Agosto 2022"
       },
       "third": {
-        "title": "Full Stack Development",
-        "subtitle": "Freelance",
-        "date": "2022 - Present"
+        "title": "Desarrollador Full Stack",
+        "subtitle": "Freelancer",
+        "date": "2022 - Presente"
       }
     }
   },
