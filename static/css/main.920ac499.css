@@ -805,7 +805,7 @@ ul {
   --button-color-active: hsl(var(--hue), var(--sat), 70%);
   --dropdown-item-bg-color: hsl(var(--hue), var(--sat), 98%);
   --dropdown-item-bg-color-hover: hsl(var(--hue), var(--sat), 95%);
-  --background-photo: url(./static/media/Foto-mia-b&w-lightmode.9c07e51ed92e3427350b.jpg);
+  --background-photo: url(../media/Foto-mia-b&w-lightmode.9c07e51ed92e3427350b.jpg);
 }
 #dark {
   --title-color: hsl(var(--hue), var(--sat), 50%);
@@ -821,7 +821,7 @@ ul {
   --button-color-active: hsl(var(--hue), var(--sat), 30%);
   --dropdown-item-bg-color: hsl(var(--hue), var(--sat), 2%);
   --dropdown-item-bg-color-hover: hsl(var(--hue), var(--sat), 10%);
-  --background-photo: url(./static/media/Foto-mia-b&w-darkmode.61249db381d68025e5ec.jpg);
+  --background-photo: url(../media/Foto-mia-b&w-darkmode.61249db381d68025e5ec.jpg);
 }
 @media screen and (max-width: 992px) {
   :root {
