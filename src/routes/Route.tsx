@@ -3,7 +3,7 @@ import Default from "components/_Layouts/Default";
 import {
   Route as ReactDOMRoute,
   RouteProps as ReactDOMRouterProps,
-  Redirect,
+  // Redirect,
 } from "react-router-dom";
 
 interface RouteProps extends ReactDOMRouterProps {
