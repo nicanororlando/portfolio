@@ -21,7 +21,7 @@ const NavBar: React.FC = () => {
     <Container className="d-flex flex-column p-10">
       <Header>
         <Nav className="container">
-          <a href="index.html" className="nav__logo">
+          <a href="/portfolio" className="nav__logo">
             Nicanor
           </a>
           <NavMenu active={ToggleMenu}>
