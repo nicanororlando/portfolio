@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.7cf87f99.css",
-    "main.js": "/static/js/main.aef69f9c.js",
-    "static/media/my-resume.pdf": "/static/media/my-resume.fedab335b41af17ce101.pdf",
-    "static/media/Foto-mia-b&w-darkmode.jpg": "/static/media/Foto-mia-b&w-darkmode.61249db381d68025e5ec.jpg",
-    "static/media/Foto-mia-b&w-lightmode.jpg": "/static/media/Foto-mia-b&w-lightmode.9c07e51ed92e3427350b.jpg",
-    "index.html": "/index.html",
-    "main.7cf87f99.css.map": "/static/css/main.7cf87f99.css.map",
-    "main.aef69f9c.js.map": "/static/js/main.aef69f9c.js.map"
+    "main.css": "/portfolio/static/css/main.920ac499.css",
+    "main.js": "/portfolio/static/js/main.3237fda2.js",
+    "static/media/my-resume.pdf": "/portfolio/static/media/my-resume.fedab335b41af17ce101.pdf",
+    "static/media/Foto-mia-b&w-darkmode.jpg": "/portfolio/static/media/Foto-mia-b&w-darkmode.61249db381d68025e5ec.jpg",
+    "static/media/Foto-mia-b&w-lightmode.jpg": "/portfolio/static/media/Foto-mia-b&w-lightmode.9c07e51ed92e3427350b.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.920ac499.css.map": "/portfolio/static/css/main.920ac499.css.map",
+    "main.3237fda2.js.map": "/portfolio/static/js/main.3237fda2.js.map"
   },
   "entrypoints": [
-    "static/css/main.7cf87f99.css",
-    "static/js/main.aef69f9c.js"
+    "static/css/main.920ac499.css",
+    "static/js/main.3237fda2.js"
   ]
 }
