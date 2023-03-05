@@ -3,8 +3,10 @@ import CarouselComponent from "react-slick";
 
 export const Carousel = styled(CarouselComponent)`
   .slick-track {
-    transform: translate3d(0px, 0px, 0px) !important;
-    width: 350px !important;
+    transform: translate3d(0px, 0px, 0px);
+    width: 500px;
+    height: 500px;
+    cursor: pointer;
   }
 
   .slick-dots {
@@ -70,7 +72,7 @@ export const ButtonLeft = styled.button`
   bottom: 40%;
   top: unset;
   right: unset;
-  left: 2%;
+  left: 3%;
 
   div {
     background: #01cc9d;
@@ -92,17 +94,6 @@ export const ButtonLeft = styled.button`
   ::before {
     display: none;
   }
-  @media (max-width: 1200px) {
-    bottom: 39%;
-    left: 3%;
-  }
-  @media (max-width: 991px) {
-    bottom: 39%;
-    left: 4.5%;
-  }
-  @media (max-width: 320px) {
-    left: 5.5%;
-  }
 `;
 
 export const ButtonRight = styled.button`
@@ -115,8 +106,8 @@ export const ButtonRight = styled.button`
   height: max-content;
   bottom: 40%;
   top: unset;
-  right: unset;
-  left: 94.5%;
+  left: unset;
+  right: 3%;
 
   div {
     background: #01cc9d;
@@ -126,7 +117,7 @@ export const ButtonRight = styled.button`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 2%;
+    margin: 0 auto;
   }
 
   svg {
@@ -137,25 +128,5 @@ export const ButtonRight = styled.button`
 
   ::before {
     display: none;
-  }
-  @media (max-width: 1200px) {
-    bottom: 39%;
-    left: 92%;
-  }
-  @media (max-width: 991px) {
-    bottom: 39%;
-    left: 88%;
-  }
-  @media (max-width: 740px) {
-    left: 87.5%;
-  }
-  @media (max-width: 483px) {
-    left: 86%;
-  }
-  @media (max-width: 400px) {
-    left: 84%;
-  }
-  @media (max-width: 320px) {
-    left: 81%;
   }
 `;

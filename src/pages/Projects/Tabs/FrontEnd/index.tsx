@@ -2,14 +2,14 @@ import React, { useEffect, useState } from "react";
 import Card from "./components/Card";
 import Slider from "./components/Slider";
 import { Container, ContainerOut } from "./styles";
-import { fakeFrontEndProjectsData } from "./FakeData/FrontEndData";
-import { IFrontend as IFrontendProjects } from "models/FrontEnd";
+import { frontEndProjectsData } from "./Data/FrontEndData";
+import { IFrontendProjects as IFrontendProjects } from "models/FrontEnd";
 
 const FrontEnd: React.FC = () => {
   const [projects, setProjects] = useState([] as IFrontendProjects[]);
 
   useEffect(() => {
-    setProjects(fakeFrontEndProjectsData);
+    setProjects(frontEndProjectsData);
   }, []);
 
   return (
@@ -20,15 +20,8 @@ const FrontEnd: React.FC = () => {
         </div>
         <div className="col-12">
           <Slider>
-            {projects.map((project) => (
-              <Card
-                id={project.id}
-                images={project.images}
-                title={project.title}
-                languajeImages={project.languajeImages}
-                linkRedirect={project.linkRedirect}
-              />
-            ))}
+            {projects.length > 0 &&
+              projects.map((project) => <Card project={project} />)}
           </Slider>
         </div>
         <div className="pb-5" />

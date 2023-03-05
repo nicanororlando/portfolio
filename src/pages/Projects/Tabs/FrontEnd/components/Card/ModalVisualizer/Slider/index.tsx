@@ -11,7 +11,7 @@ interface IButtonProps {
 
 interface ISliderProps {
   onAfterChange?(index: number): void;
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }
 
 const PrevArrow: React.FC<IButtonProps> = ({ className, onClick }) => {

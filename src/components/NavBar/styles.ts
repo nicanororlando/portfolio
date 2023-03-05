@@ -25,7 +25,7 @@ export const Header = styled.div`
 export const Nav = styled.div`
   height: calc(var(--header-height) + 1.5rem);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   column-gap: 1rem;
 

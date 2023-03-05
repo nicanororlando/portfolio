@@ -1,11 +1,13 @@
-import styled from 'styled-components';
-import { Modal as ModalComponent } from 'react-bootstrap';
+import styled from "styled-components";
+import { Modal as ModalComponent } from "react-bootstrap";
 
 export const Modal = styled(ModalComponent)`
   .modal-content {
     border: none;
     background: #ffffff;
     border-radius: 10px;
+    width: 600px;
+    margin: auto;
 
     .modal-header {
       margin: 5px 0;
@@ -58,14 +60,14 @@ export const Modal = styled(ModalComponent)`
         border: 2px solid transparent;
       }
 
-      button[type='button'] {
+      button[type="button"] {
         color: #d9d9d9;
         font-weight: 500;
         border-color: #d9d9d9;
         background: #01cc9d;
       }
 
-      button[type='submit'] {
+      button[type="submit"] {
         color: #ffffff;
         font-weight: bold;
         background: #2e90fd;

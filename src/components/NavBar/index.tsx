@@ -21,9 +21,9 @@ const NavBar: React.FC = () => {
     <Container className="d-flex flex-column p-10">
       <Header>
         <Nav className="container">
-          <a href="/portfolio" className="nav__logo">
-            Nicanor
-          </a>
+          {/* <a href="/portfolio" className="nav__logo">
+            Nica Orlando
+          </a> */}
           <NavMenu active={ToggleMenu}>
             <NavList className="container">
               <ul className="nav__list">

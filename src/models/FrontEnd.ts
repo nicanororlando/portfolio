@@ -1,4 +1,4 @@
-export interface IFrontend {
+export interface IFrontendProjects {
   id: number;
   images: string[];
   title: string;

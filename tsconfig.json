@@ -17,6 +17,7 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "typeRoots": ["types.d.ts"]
+    // "types": ["webpack-env"]
   },
   "include": ["src"]
 }
