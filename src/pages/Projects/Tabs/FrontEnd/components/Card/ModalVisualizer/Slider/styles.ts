@@ -4,8 +4,8 @@ import CarouselComponent from "react-slick";
 export const Carousel = styled(CarouselComponent)`
   .slick-track {
     transform: translate3d(0px, 0px, 0px);
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     cursor: pointer;
   }
 

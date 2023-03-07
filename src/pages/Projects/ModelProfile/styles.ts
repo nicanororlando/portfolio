@@ -118,31 +118,8 @@ export const Container = styled.div`
     color: #b8b9ba;
   }
 
-  .btn-border {
-    border: 1px solid #e4e4e4;
-    border-radius: 10px 10px 0px 0px;
-    height: 37px;
-    white-space: nowrap;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: transparent;
-    -webkit-text-fill-color: #707070;
-    transition: 0.3s;
-
-    :hover {
-      background: #dcf0ea;
-      border-color: #dcf0ea;
-      -webkit-text-stroke-color: #414142;
-    }
-  }
-
   .tabs {
     margin-bottom: -1px;
-
-    .active {
-      background: #dcf0ea;
-      border-color: #dcf0ea;
-      -webkit-text-stroke-color: #414142;
-    }
   }
 
   .folder {

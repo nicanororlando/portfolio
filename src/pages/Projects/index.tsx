@@ -16,9 +16,9 @@ const Projects: React.FC = () => {
   return (
     <ModelProfile>
       <Section className="contact section" id="projects">
-        <h2 className="section__title">{language.contact.section_title}</h2>
+        <h2 className="section__title">{language.projects.section_title}</h2>
         <span className="section__subtitle">
-          {language.contact.section_subtitle}
+          {language.projects.section_subtitle}
         </span>
         <div className="row d-flex overflow-auto overflow-sm-none tabs">
           <TabButtons step={step} setStep={setStep} />

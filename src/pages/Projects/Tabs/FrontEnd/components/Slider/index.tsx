@@ -135,7 +135,13 @@ const Slider: React.FC<ISliderProps> = ({ onAfterChange, children }) => {
   );
 
   return (
-    <Carousel {...(isMobile ? settingsMobile : settings)}>{children}</Carousel>
+    <>
+      {children && (
+        <Carousel {...(isMobile ? settingsMobile : settings)}>
+          {children}
+        </Carousel>
+      )}
+    </>
   );
 };
 

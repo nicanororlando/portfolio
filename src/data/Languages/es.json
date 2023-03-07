@@ -3,6 +3,7 @@
     "home": "Inicio",
     "about": "Acerca de",
     "skills": "Habilidades",
+    "projects": "Proyectos",
     "services": "Servicios",
     "portfolio": "Portafolio",
     "contact": "Contacto"
@@ -11,7 +12,7 @@
     "data": {
       "home_subtitle": "Desarrollador Junior FullStack",
       "home_description": "Soy desarrollador web, creativo y de rapido aprendizaje.",
-      "hello_button": "Saludame"
+      "hello_button": "Contáctame"
     },
     "scrollDown": "Ir abajo"
   },
@@ -41,6 +42,14 @@
       "intermediate": "Intermedio",
       "advanced": "Avanzado"
     }
+  },
+  "projects": {
+    "section_title": "Proyectos",
+    "section_subtitle": "Algunos proyectos que he realizado",
+    "frontend_title": "Proyectos frontend",
+    "backend_title": "Proyectos backend",
+    "btn_visit": "Visitar sitio",
+    "btn_close": "Cerrar"
   },
   "services": {
     "section_title": "Servicios",

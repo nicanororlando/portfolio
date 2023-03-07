@@ -41,6 +41,9 @@
   /* Colors */
   /* Color mode HSL (hue, saturation, lightness) */
 
+  --color-contrast-dark: #111;
+  --color-contrast-light: #fff;
+
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-active: hsl(var(--hue), var(--sat), 0%);
 
@@ -62,12 +65,18 @@
   --dropdown-item-bg-color: hsl(var(--hue), var(--sat), 98%);
   --dropdown-item-bg-color-hover: hsl(var(--hue), var(--sat), 95%);
 
+  --tab-bg-color: rgb(240, 240, 240);
+  --tab-bg-color-active: #01cc9d;
+
   --background-photo: url(../assets/Foto-mia-b&w-lightmode.jpg);
 }
 
 #dark {
   /* Colors */
   /* Color mode HSL (hue, saturation, lightness) */
+
+  --color-contrast-dark: #ddd;
+  --color-contrast-light: #111;
 
   --title-color: hsl(var(--hue), var(--sat), 50%);
   --title-color-active: hsl(var(--hue), var(--sat), 70%);
@@ -88,6 +97,9 @@
 
   --dropdown-item-bg-color: hsl(var(--hue), var(--sat), 2%);
   --dropdown-item-bg-color-hover: hsl(var(--hue), var(--sat), 10%);
+
+  --tab-bg-color: hsl(var(--hue), var(--sat), 10%);
+  --tab-bg-color-active: #01cc9d;
 
   --background-photo: url(../assets/Foto-mia-b&w-darkmode.jpg);
 }

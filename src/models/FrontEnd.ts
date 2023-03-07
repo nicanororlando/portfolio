@@ -4,5 +4,5 @@ export interface IFrontendProjects {
   title: string;
   description?: string;
   languajeImages: string[];
-  linkRedirect: string;
+  linkRedirect?: string;
 }

@@ -3,42 +3,47 @@ import styled from "styled-components";
 export const CardContainer = styled.div`
   .title_body {
     .button_redirect {
-      background: #c6c7c7e3;
+      background: hsl(var(--hue), var(--sat), 90%);
       color: #000;
-      font-size: 20px;
       :hover {
-        color: #01cc9d !important;
+        color: #01cc9d;
       }
     }
   }
   .card {
-    border: 1px solid black;
     scroll-snap-align: center;
     border-radius: 15px;
     color: #000;
     margin-bottom: 2%;
     background-color: #eff2f3e3;
+    cursor: pointer;
+    :hover {
+      border: 1px solid var(--color-contrast-dark) !important;
+    }
     .card_body {
-      padding-top: 0 !important;
+      padding-top: 0;
       display: flex;
       flex-direction: column;
-      gap: 1rem;
       .title_body {
         font-weight: 500;
-        margin-right: 0 !important;
-        margin-left: 0 !important;
-        background-color: #c6c7c7e3;
+        background-color: hsl(var(--hue), var(--sat), 90%);
         padding: 8px;
-        padding-left: 1.8rem;
+        padding-left: 25px;
+        padding-right: 10px;
         display: flex;
         justify-content: space-between;
       }
       .card_body_items {
         display: flex;
-        border-radius: 15px;
-        justify-content: center;
-        max-height: 100%;
+        justify-content: start;
         background-color: #eff2f3e3;
+        border-radius: 0 0 15px 15px;
+        padding: 12px;
+        padding-left: 25px;
+        img {
+          width: 27px;
+          height: 27px;
+        }
       }
     }
     img {

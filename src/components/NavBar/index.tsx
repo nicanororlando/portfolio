@@ -46,6 +46,12 @@ const NavBar: React.FC = () => {
                   </a>
                 </li>
                 <li>
+                  <a href="#projects" className="nav__link">
+                    <i className="uil uil-briefcase-alt nav__icon"></i>
+                    <div>{language.navBar.projects}</div>
+                  </a>
+                </li>
+                <li>
                   <a href="#services" className="nav__link">
                     <i className="uil uil-briefcase-alt nav__icon"></i>
                     <div>{language.navBar.services}</div>

@@ -3,6 +3,7 @@ export interface ILanguage {
     home: string;
     about: string;
     skills: string;
+    projects: string;
     services: string;
     portfolio: string;
     contact: string;
@@ -41,6 +42,14 @@ export interface ILanguage {
       intermediate: string;
       advanced: string;
     };
+  };
+  projects: {
+    section_title: string;
+    section_subtitle: string;
+    frontend_title: string;
+    backend_title: string;
+    btn_visit: string;
+    btn_close: string;
   };
   services: {
     section_title: string;

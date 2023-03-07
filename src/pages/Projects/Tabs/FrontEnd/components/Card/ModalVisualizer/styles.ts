@@ -4,7 +4,6 @@ import { Modal as ModalComponent } from "react-bootstrap";
 export const Modal = styled(ModalComponent)`
   .modal-content {
     border: none;
-    background: #ffffff;
     border-radius: 10px;
     width: 600px;
     margin: auto;
@@ -58,17 +57,18 @@ export const Modal = styled(ModalComponent)`
         height: 40px;
         border-radius: 10px;
         border: 2px solid transparent;
+        color: #111;
       }
 
       button[type="button"] {
-        color: #d9d9d9;
-        font-weight: 500;
         border-color: #d9d9d9;
         background: #01cc9d;
+        color: #111;
+        font-weight: 500;
       }
 
       button[type="submit"] {
-        color: #ffffff;
+        color: #111;
         font-weight: bold;
         background: #2e90fd;
       }

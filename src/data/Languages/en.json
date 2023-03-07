@@ -3,6 +3,7 @@
     "home": "Home",
     "about": "About",
     "skills": "Skills",
+    "projects": "Projects ",
     "services": "Services",
     "portfolio": "Portfolio",
     "contact": "Contact"
@@ -41,6 +42,14 @@
       "intermediate": "Intermediate",
       "advanced": "Advanced"
     }
+  },
+  "projects": {
+    "section_title": "Projects",
+    "section_subtitle": "Some projects I have done",
+    "frontend_title": "Frontend Projects",
+    "backend_title": "Backend Projects",
+    "btn_visit": "Visit site",
+    "btn_close": "Close"
   },
   "services": {
     "section_title": "Services",
