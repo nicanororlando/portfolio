@@ -1,44 +1,21 @@
-import React, { ReactNode, useEffect, useState } from "react";
+import React from "react";
+import { Container, ContainerOut } from "./styles";
+import AnimatedCards from "../../../../components/AnimatedCards";
+import { useBackEndProjectsData } from "data/BackEndData";
 
-import { Container } from "./styles";
-
-interface IProps {
-  step: number;
-  setStep(step: number): void;
-}
-
-interface BProps {
-  children: ReactNode;
-  active: number;
-}
-
-const TabButtons: React.FC<IProps> = ({ step, setStep }) => {
-  const Button = ({ children, active }: BProps) => {
-    if (active === step && typeof Storage !== "undefined")
-      sessionStorage.setItem("skill-step", `${step}`);
-
-    return (
-      <button
-        type="button"
-        className={
-          active === step
-            ? "small btn-border px-3 me-1 active"
-            : "small btn-border px-3"
-        }
-        onClick={() => setStep(active)}
-        disabled={active === step}
-      >
-        {children}
-      </button>
-    );
-  };
+const BackEnd: React.FC = () => {
+  const { projects } = useBackEndProjectsData();
 
   return (
-    <Container>
-      <Button active={1}>Frontend projects</Button>
-      <Button active={2}>Backend projects</Button>
-    </Container>
+    <ContainerOut>
+      <Container className="container card-dashboard col-12 pt-5 pb-3">
+        <div className="d-flex justify-content-between align-items-center mb-4">
+          <AnimatedCards cards={projects} />
+        </div>
+        <div className="pb-5" />
+      </Container>
+    </ContainerOut>
   );
 };
 
-export default TabButtons;
+export default BackEnd;

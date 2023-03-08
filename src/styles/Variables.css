@@ -68,6 +68,8 @@
   --tab-bg-color: rgb(240, 240, 240);
   --tab-bg-color-active: #01cc9d;
 
+  --animated-card-bg: rgb(240, 240, 240);
+
   --background-photo: url(../assets/Foto-mia-b&w-lightmode.jpg);
 }
 

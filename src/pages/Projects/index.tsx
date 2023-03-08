@@ -4,6 +4,7 @@ import { Section, Tab } from "./styles";
 import ModelProfile from "./ModelProfile";
 import TabButtons from "./Tabs/TabButtons";
 import FrontEnd from "./Tabs/FrontEnd";
+import BackEnd from "./Tabs/BackEnd";
 
 const Projects: React.FC = () => {
   const { language } = useLanguage();
@@ -29,7 +30,7 @@ const Projects: React.FC = () => {
           <FrontEnd />
         </Tab>
         <Tab active={step === 2}>
-          <div />
+          <BackEnd />
         </Tab>
 
         {/* {step === 1 && <PersonalData />}
