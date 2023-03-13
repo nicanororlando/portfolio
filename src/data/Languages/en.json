@@ -10,7 +10,9 @@
   },
   "home": {
     "data": {
-      "home_subtitle": "Junior Full Stack Developer",
+      "hello": "Hello, It's me",
+      "home_subtitle_1": "And I am a ",
+      "home_subtitle_2": "Junior Full Stack Developer",
       "home_description": "I'm creative web developer based in Argentina, and I'm very passionate and dedicated to my work.",
       "hello_button": "Say hello"
     },

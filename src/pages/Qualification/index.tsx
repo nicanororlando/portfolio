@@ -3,7 +3,7 @@ import "./styles.css";
 import { useLanguage } from "hooks/useLanguage";
 import { useState } from "react";
 
-const Portfolio: React.FC = () => {
+const Qualification: React.FC = () => {
   const { language } = useLanguage();
   const [toggleState, setToggleState] = useState(1);
 
@@ -195,4 +195,4 @@ const Portfolio: React.FC = () => {
   );
 };
 
-export default Portfolio;
+export default Qualification;

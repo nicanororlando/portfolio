@@ -10,7 +10,9 @@
   },
   "home": {
     "data": {
-      "home_subtitle": "Desarrollador Junior FullStack",
+      "hello": "Hola, mi nombre es",
+      "home_subtitle_1": "Y soy un ",
+      "home_subtitle_2": "Desarrollador Junior FullStack",
       "home_description": "Soy desarrollador web, creativo y de rapido aprendizaje.",
       "hello_button": "Contáctame"
     },

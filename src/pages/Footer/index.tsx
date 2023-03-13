@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Foot } from "./styles";
 import { useLanguage } from "hooks/useLanguage";
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 
 const Footer: React.FC = () => {
   const { language } = useLanguage();
@@ -8,7 +9,7 @@ const Footer: React.FC = () => {
   return (
     <Foot>
       <Container>
-        <h1 className="title">Nicanor</h1>
+        <h1 className="title">Nicanor Orlando</h1>
         <ul className="list">
           <li>
             <a href="#about" className="link">
@@ -29,27 +30,27 @@ const Footer: React.FC = () => {
         <div className="social">
           <a
             href="https://github.com/nicanororlando"
-            className="social-link"
+            className="social-icon"
             target="_blank"
             rel="noreferrer"
           >
-            <i className="uil uil-github-alt"></i>
+            <AiFillGithub />
           </a>
           <a
             href="https://www.linkedin.com/in/nicanororlando"
-            className="social-link"
+            className="social-icon"
             target="_blank"
             rel="noreferrer"
           >
-            <i className="uil uil-linkedin"></i>
+            <AiFillLinkedin />
           </a>
           <a
             href="https://www.instagram.com/nicanororlando"
-            className="social-link"
+            className="social-icon"
             target="_blank"
             rel="noreferrer"
           >
-            <i className="uil uil-instagram"></i>
+            <AiFillInstagram />
           </a>
         </div>
         <span className="copy">&#169; CanorCode. All rigths reserved</span>

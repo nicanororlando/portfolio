@@ -10,7 +10,9 @@ export interface ILanguage {
   };
   home: {
     data: {
-      home_subtitle: string;
+      hello: string;
+      home_subtitle_1: string;
+      home_subtitle_2: string;
       home_description: string;
       hello_button: string;
     };

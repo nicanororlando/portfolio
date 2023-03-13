@@ -23,12 +23,12 @@ body {
 }
 
 #light {
-  background-color: var(--light);
+  background-color: var(--body-color);
   color: var(--text-color);
 }
 
 #dark {
-  background-color: var(--dark);
+  background-color: var(--body-color);
   color: var(--text-color);
 }
 
@@ -36,7 +36,7 @@ h1,
 h2,
 h3 {
   font-weight: var(--font-semi-bold);
-  color: var(--title-color);
+  color: var(--text-color);
 }
 
 ul {
@@ -65,7 +65,7 @@ img {
 }
 .section__title {
   font-size: var(--h1-font-size);
-  color: var(--title-color);
+  color: var(--text-color);
 }
 
 .section__subtitle {
@@ -95,10 +95,11 @@ img {
 
 /*------------------------------ BUTTONS --------------------------------*/
 .button {
-  display: inline;
+  display: inline-block;
   padding: 1.25rem 2rem;
   border-radius: 1rem;
-  font-weight: var(--font-medium);
+  box-shadow: 0 0 10px var(--button-bg-color);
+  font-weight: var(--font-semi-bold);
 }
 #light .button {
   background-color: var(--button-bg-color);
@@ -111,9 +112,11 @@ img {
 
 #light .button:hover {
   background-color: var(--button-bg-color-active);
+  color: var(--button-color-active);
 }
 #dark .button:hover {
   background-color: var(--button-bg-color-active);
+  color: var(--button-color-active);
 }
 
 .button__icon {
@@ -122,6 +125,29 @@ img {
 .button--flex {
   display: inline-flex;
   align-items: center;
+}
+
+.social-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: var(--button-bg-color-inverted);
+  color: var(--button-color-inverted);
+  box-shadow: 0 0 10px var(--button-bg-color);
+  border-radius: 50%;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 8px;
+  opacity: 0;
+  animation: slideLeft 1s ease forwards;
+  animation-delay: 0.7s;
+}
+
+.social-icon:hover {
+  background: var(--button-bg-color-inverted-active);
+  color: var(--button-color-inverted-active);
 }
 
 /*------------------------------ BREAKPOINTS --------------------------------*/

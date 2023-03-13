@@ -17,7 +17,7 @@ interface Props {
 }
 
 export const ThemeProvider: React.FC<Props> = ({ children }) => {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
   const [themeChecked, setThemeCheked] = useState(false);
 
   // const handleTheme = useCallback(

@@ -43,8 +43,8 @@ export const Content = styled.div`
     top: 0;
     left: 0;
     width: 100%;
-    border: 2px solid rgba(0, 0, 0, 0.3);
-    background: none;
+    border: 2px solid var(--text-color-active);
+    background: var(--body-color);
     color: var(--text-color);
     outline: none;
     border-radius: 0.75rem;

@@ -21,13 +21,10 @@
   margin-right: 0.25rem;
   margin-left: 2px;
 }
-.home__scroll-name:hover {
-  color: var(--text-color-active);
-}
 
 .home__scroll-arrow {
   font-size: 1.25rem;
-  color: var(--title-color);
+  color: var(--text-color);
 }
 
 /*------------------------------ BREAKPOINTS --------------------------------*/

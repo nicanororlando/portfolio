@@ -24,7 +24,6 @@
     "react-device-detect": "^2.2.3",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.42.1",
-    "react-icons": "^4.7.1",
     "react-router-dom": "^5.3.4",
     "react-scripts": "^5.0.1",
     "react-slick": "^0.29.0",
@@ -66,6 +65,7 @@
     "@types/webpack-env": "^1.18.0",
     "gh-pages": "^5.0.0",
     "react-apexcharts": "^1.4.0",
+    "react-icons": "^4.8.0",
     "sass": "^1.57.1"
   }
 }

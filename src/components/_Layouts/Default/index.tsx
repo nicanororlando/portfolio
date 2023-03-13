@@ -5,7 +5,7 @@ import Home from "pages/Home";
 import About from "pages/About";
 import Skills from "pages/Skills";
 import Services from "pages/Services";
-import Portfolio from "pages/Portfolio";
+import Qualification from "pages/Qualification";
 import Contact from "pages/Contact";
 import Footer from "pages/Footer";
 import Projects from "pages/Projects";
@@ -28,7 +28,7 @@ const Default: React.FC<Props> = ({ children }) => {
           <Skills />
           <Projects />
           <Services />
-          <Portfolio />
+          <Qualification />
           <Contact />
           <Footer />
         </div>

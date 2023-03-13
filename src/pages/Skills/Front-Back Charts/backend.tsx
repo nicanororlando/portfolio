@@ -75,6 +75,7 @@ const Backend = () => {
           },
         },
       },
+      colors: ["#00EEFF", "#FFC392", "#DF8D5E"],
       legend: {
         show: true,
         showForSingleSeries: true,
@@ -174,6 +175,7 @@ const Backend = () => {
           },
         },
       },
+      colors: ["#00C5FF", "#B1A7FF"],
       stroke: {
         width: 0.2,
         colors: ["var(--color-contrast-dark"],

@@ -23,7 +23,7 @@ export const Carousel = styled(CarouselComponent)`
         width: 7px;
         height: 7px;
         border-radius: 50%;
-        background: rgba(209, 209, 209, 0.33);
+        background: var(--slider-button-bg);
         margin: 0;
         padding: 0;
 
@@ -32,7 +32,7 @@ export const Carousel = styled(CarouselComponent)`
         }
 
         :hover {
-          background: #01cc9d;
+          background: #9acb53;
         }
       }
 
@@ -45,7 +45,7 @@ export const Carousel = styled(CarouselComponent)`
       button {
         width: 24px;
         height: 7px;
-        background: #01cc9d;
+        background: var(--slider-button-bg);
         border-radius: 10px;
       }
     }
@@ -66,7 +66,7 @@ export const ButtonLeft = styled.button`
   left: 45%;
 
   div {
-    background: #01cc9d;
+    background: var(--slider-button-bg);
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -101,7 +101,7 @@ export const ButtonRight = styled.button`
   left: 52%;
 
   div {
-    background: #01cc9d;
+    background: var(--slider-button-bg);
     width: 40px;
     height: 40px;
     border-radius: 50%;

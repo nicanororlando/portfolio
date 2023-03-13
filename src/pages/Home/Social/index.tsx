@@ -1,4 +1,5 @@
 import React from "react";
+import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
 import "./styles.css";
 
 const Social: React.FC = () => {
@@ -6,27 +7,27 @@ const Social: React.FC = () => {
     <div className="d-flex flex-column align-items-center">
       <a
         href="https://github.com/nicanororlando"
-        className="home__social-icon"
+        className="social-icon"
         target="_blank"
         rel="noreferrer"
       >
-        <i className="uil uil-github-alt"></i>
+        <AiFillGithub />
       </a>
       <a
         href="https://www.linkedin.com/in/nicanororlando"
-        className="home__social-icon"
+        className="social-icon"
         target="_blank"
         rel="noreferrer"
       >
-        <i className="uil uil-linkedin"></i>
+        <AiFillLinkedin />
       </a>
       <a
         href="https://www.instagram.com/nicanororlando"
-        className="home__social-icon"
+        className="social-icon"
         target="_blank"
         rel="noreferrer"
       >
-        <i className="uil uil-instagram"></i>
+        <AiFillInstagram />
       </a>
     </div>
   );

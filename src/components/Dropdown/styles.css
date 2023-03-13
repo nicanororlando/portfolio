@@ -4,7 +4,7 @@
 }
 
 .dropdown-button {
-  background-color: var(--container-color);
+  background-color: var(--body-color);
   color: var(--nav-link-color);
   border: none;
   cursor: pointer;

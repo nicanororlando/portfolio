@@ -2,12 +2,18 @@ import React, { useState, useRef, useEffect } from "react";
 import "./styles.css";
 
 interface DropdownProps {
+  className?: string;
   options: string[];
   onSelect: (option: string) => void;
   value?: string;
 }
 
-const Dropdown: React.FC<DropdownProps> = ({ options, onSelect, value }) => {
+const Dropdown: React.FC<DropdownProps> = ({
+  className,
+  options,
+  onSelect,
+  value,
+}) => {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const [selectedOption, setSelectedOption] = React.useState(
@@ -40,7 +46,7 @@ const Dropdown: React.FC<DropdownProps> = ({ options, onSelect, value }) => {
   }, []);
 
   return (
-    <div ref={dropdownRef} className="dropdown-container">
+    <div ref={dropdownRef} className={"dropdown-container " + className}>
       <button
         className="dropdown-button d-flex flex-row"
         onClick={toggleDropdown}

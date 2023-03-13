@@ -1,3 +1,4 @@
+/* eslint-disable react/style-prop-object */
 import React, { useCallback, useState } from "react";
 import { useTheme } from "hooks/useTheme";
 import Dropdown from "components/Dropdown";
@@ -27,43 +28,49 @@ const NavBar: React.FC = () => {
           <NavMenu active={ToggleMenu}>
             <NavList className="container">
               <ul className="nav__list">
-                <li>
+                <li style={{ "--i": 1 } as React.CSSProperties}>
                   <a href="#home" className="nav__link active-link">
                     <i className="uil uil-estate nav__icon"></i>
                     <div>{language.navBar.home}</div>
                   </a>
                 </li>
-                <li>
+                <li style={{ "--i": 2 } as React.CSSProperties}>
                   <a href="#about" className="nav__link">
                     <i className="uil uil-user nav__icon"></i>
                     <div>{language.navBar.about}</div>
                   </a>
                 </li>
-                <li>
+                <li style={{ "--i": 3 } as React.CSSProperties}>
                   <a href="#skills" className="nav__link">
                     <i className="uil uil-file-alt nav__icon"></i>
                     <div>{language.navBar.skills}</div>
                   </a>
                 </li>
-                <li>
+                <li style={{ "--i": 4 } as React.CSSProperties}>
                   <a href="#projects" className="nav__link">
                     <i className="uil uil-briefcase-alt nav__icon"></i>
                     <div>{language.navBar.projects}</div>
                   </a>
                 </li>
-                <li>
+                <li
+                  style={{ "--i": 5 } as React.CSSProperties}
+                  className="hide-sm"
+                >
                   <a href="#services" className="nav__link">
                     <i className="uil uil-briefcase-alt nav__icon"></i>
                     <div>{language.navBar.services}</div>
                   </a>
                 </li>
-                <li>
+                <li style={{ "--i": 6 } as React.CSSProperties}>
                   <a href="#portfolio" className="nav__link">
                     <i className="uil uil-scenery nav__icon"></i>
                     <div>{language.navBar.portfolio}</div>
                   </a>
                 </li>
-                <li className="mr-20">
+                <li
+                  style={{ "--i": 7 } as React.CSSProperties}
+                  className="mr-20"
+                >
                   <a href="#contact" className="nav__link">
                     <i className="uil uil-message nav__icon"></i>
                     <div>{language.navBar.contact}</div>

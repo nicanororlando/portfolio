@@ -7,7 +7,7 @@ interface TogglerDL {
 export const Container = styled.div``;
 
 export const Header = styled.div`
-  background-color: var(--container-color);
+  background-color: var(--body-color);
   width: 100%;
   position: fixed;
   top: 0;
@@ -84,8 +84,11 @@ export const NavList = styled.div`
     align-items: center;
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
-    transition: 0.3s;
     color: var(--nav-link-color);
+    transition: 0.3s;
+    opacity: 0;
+    animation: slideTop 0.5s ease forwards;
+    animation-delay: calc(0.2s * var(--i));
   }
 
   .nav__icon,
@@ -97,12 +100,22 @@ export const NavList = styled.div`
   /* Active link */
   .active-link,
   .nav__link:hover {
-    color: var(--title-color-active);
+    color: var(--nav-link-color-active);
+    font-weight: var(--font-semi-bold);
   }
   .active-link,
   .nav__link:hover {
-    color: var(--title-color-active);
+    color: var(--nav-link-color-active);
+    font-weight: var(--font-semi-bold);
   }
+
+  /* a {
+    font-size: 18px;
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: var(--font-medium);
+    margin-left: 35px;
+  } */
 
   /*------------------------------ BREAKPOINTS --------------------------------*/
   /* lg */
@@ -134,7 +147,7 @@ export const NavList = styled.div`
       margin: 30px 0 10px 10px;
       font-size: 1.5rem;
       cursor: pointer;
-      color: var(--title-color);
+      color: var(color: var(--nav-link-color) ;);
     }
 
     ul .dropdown-container {
@@ -142,10 +155,10 @@ export const NavList = styled.div`
     }
 
     #light .nav__close:hover {
-      color: var(--title-color-active);
+      color: var(--nav-link-color-active);
     }
     #dark .nav__close:hover {
-      color: var(--title-color-active);
+      color: var(--nav-link-color-active);
     }
 
     .nav__icon {

@@ -43,7 +43,7 @@ export const Container = styled.div`
   .expanded {
     width: fit-content;
     height: fit-content;
-    background-color: var(--container-color);
+    background-color: var(--body-color);
     position: absolute;
     left: 0;
     right: 0;
@@ -66,7 +66,7 @@ export const Container = styled.div`
   }
 
   .compact {
-    background-color: var(--container-color);
+    background-color: var(--body-color);
     color: var(--text-color);
     height: fit-content;
     padding: 1rem 1.3rem;
@@ -108,7 +108,7 @@ export const Container = styled.div`
         width: fit-content;
         border-radius: 10px;
         border: 2px solid transparent;
-        background: #01cc9d;
+        background: #90f8b5;
         color: var(--color-contrast-light);
         padding: 3px 11px 3px 10px;
         font-weight: 500;

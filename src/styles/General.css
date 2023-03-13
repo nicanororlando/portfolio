@@ -15,6 +15,29 @@
   margin-top: 100px;
 }
 
+/*------------------------------ ANIMATIONS --------------------------------*/
+
+.animate-top {
+  opacity: 0;
+  animation: slideTop 1s ease forwards;
+  animation-delay: 0.7s;
+}
+.animate-right {
+  opacity: 0;
+  animation: slideRight 1s ease forwards;
+  animation-delay: 0.7s;
+}
+.animate-bottom {
+  opacity: 0;
+  animation: slideBottom 1s ease forwards;
+  animation-delay: 0.7s;
+}
+.animate-left {
+  opacity: 0;
+  animation: slideLeft 1s ease forwards;
+  animation-delay: 0.7s;
+}
+
 /*------------------------------ BREAKPOINTS --------------------------------*/
 
 /* md */
@@ -37,4 +60,53 @@
 
 /* xxs */
 @media screen and (max-width: 350px) {
+}
+
+/*------------------------------ KEYFRAMES --------------------------------*/
+@keyframes slideRight {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideTop {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideBottom {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }

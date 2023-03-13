@@ -4,6 +4,7 @@ import emailjs from "@emailjs/browser";
 import Card from "components/Card";
 import { Send } from "assets/Svg";
 import { Container, Content, Info, Section } from "./styles";
+import { FiSend } from "react-icons/fi";
 
 const FORM_INITIAL = {
   name: "",
@@ -150,7 +151,8 @@ const Contact: React.FC = () => {
             </div>
 
             <button className="button button--flex">
-              {language.contact.form.button} <Send />
+              <p className="mr-10 mb-0">{language.home.data.hello_button}</p>
+              <FiSend width="30px" />
             </button>
             {formMsg && <p className={formMsg.class}>{formMsg.msg}</p>}
           </form>
