@@ -35,12 +35,24 @@
   "skills": {
     "section_title": "Skills",
     "section_subtitle": "My technical level",
-    "frontend_title": "Frontend Developer",
-    "backend_title": "Backend Developer",
+    "frontend_title": "Frontend",
+    "backend_title": "Backend",
     "levels": {
+      "initial": "Initial",
       "basic": "Basic",
       "intermediate": "Intermediate",
-      "advanced": "Advanced"
+      "advanced": "Advanced",
+      "professional": "Professional"
+    },
+    "titles": {
+      "frontend_chart": "Frontend skills",
+      "backend_chart": "Backend skills",
+      "db_chart": "Database skills"
+    },
+    "labels_back": {
+      "language": "Language",
+      "framework": "Framework",
+      "testing": "Testing"
     }
   },
   "projects": {

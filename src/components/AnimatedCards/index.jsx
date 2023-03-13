@@ -2,6 +2,31 @@ import React, { useState } from "react";
 import { motion, AnimateSharedLayout } from "framer-motion";
 import { Container } from "./styles.ts";
 
+function ContentCompact({ title, images, disabled }) {
+  return (
+    <>
+      <motion.h3
+        layoutId="title"
+        className="title"
+        style={{ opacity: disabled ? 0.2 : 1 }}
+      >
+        <div className="title-comp">{title}</div>
+      </motion.h3>
+      <motion.div layoutId="image">
+        {images &&
+          images.map((image) => (
+            <img
+              src={require(`assets/${image}`)}
+              alt={image}
+              width="28px"
+              className="mt-2"
+            />
+          ))}
+      </motion.div>
+    </>
+  );
+}
+
 function Content({ title, description, images, linkRedirect, disabled }) {
   const handleClickRedirect = () => {
     window.open(linkRedirect, "_blank");
@@ -32,14 +57,14 @@ function Content({ title, description, images, linkRedirect, disabled }) {
               />
             ))}
         </div>
-        {linkRedirect && (
+        {linkRedirect !== "" && (
           <button
             type="button"
             className="button_redirect"
             data-bs-toggle="tooltip"
             data-bs-placement="top"
             title="Open link"
-            disabled={!linkRedirect}
+            disabled={!linkRedirect !== null}
             onClick={() => handleClickRedirect()}
           >
             Visit
@@ -112,7 +137,11 @@ function DateButton({ card, onCollapse, onExpand, disabled }) {
           </ExpandedCard>
         ) : (
           <CompactCard onExpand={expandCard} disabled={disabled} card={card}>
-            <Content title={card.title} disabled={disabled} />
+            <ContentCompact
+              title={card.title}
+              images={card.images}
+              disabled={disabled}
+            />
           </CompactCard>
         )}
       </AnimateSharedLayout>

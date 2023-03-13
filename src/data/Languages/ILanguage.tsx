@@ -38,9 +38,21 @@ export interface ILanguage {
     frontend_title: string;
     backend_title: string;
     levels: {
+      initial: string;
       basic: string;
       intermediate: string;
       advanced: string;
+      professional: string;
+    };
+    titles: {
+      frontend_chart: string;
+      backend_chart: string;
+      db_chart: string;
+    };
+    labels_back: {
+      language: string;
+      framework: string;
+      testing: string;
     };
   };
   projects: {

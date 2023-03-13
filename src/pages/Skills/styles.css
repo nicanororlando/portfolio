@@ -1,3 +1,7 @@
+.apexcharts-legend-text {
+  color: var(--color-contrast-dark) !important;
+}
+
 .skills__container {
   grid-template-columns: repeat(2, 350px);
   column-gap: 3rem;
@@ -11,7 +15,7 @@
   border-radius: 1.25rem;
 }
 .skills__title {
-  font-size: var(--normal-font-size);
+  font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
   text-align: center;
   margin-bottom: 1.5rem;

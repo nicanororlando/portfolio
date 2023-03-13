@@ -65,6 +65,7 @@
     "@types/styled-components": "^5.1.26",
     "@types/webpack-env": "^1.18.0",
     "gh-pages": "^5.0.0",
+    "react-apexcharts": "^1.4.0",
     "sass": "^1.57.1"
   }
 }

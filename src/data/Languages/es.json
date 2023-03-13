@@ -35,12 +35,24 @@
   "skills": {
     "section_title": "Habilidades",
     "section_subtitle": "Mis habilidades tecnicas",
-    "frontend_title": "Desarrollador Frontend",
-    "backend_title": "Desarrollador Backend",
+    "frontend_title": "Frontend",
+    "backend_title": "Backend",
     "levels": {
-      "basic": "Basico",
+      "initial": "Inicial",
+      "basic": "Básico",
       "intermediate": "Intermedio",
-      "advanced": "Avanzado"
+      "advanced": "Avanzado",
+      "professional": "Profesional"
+    },
+    "titles": {
+      "frontend_chart": "Habilidades en Frontend",
+      "backend_chart": "Habilidades en Backend",
+      "db_chart": "Habilidades en Bases de datos"
+    },
+    "labels_back": {
+      "language": "Lenguaje",
+      "framework": "Libreria",
+      "testing": "Pruebas"
     }
   },
   "projects": {

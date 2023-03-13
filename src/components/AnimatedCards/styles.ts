@@ -56,7 +56,7 @@ export const Container = styled.div`
   .secondary {
     position: absolute;
     top: -55% !important;
-    right: -55%;
+    right: -45%;
     height: 10px;
     width: 10px;
     padding: 0.8rem;
@@ -72,6 +72,13 @@ export const Container = styled.div`
     padding: 1rem 1.3rem;
     text-align: center;
     border-radius: 1.5rem;
+    .title {
+      font-size: 15px;
+    }
+  }
+
+  .title-comp {
+    font-size: 1.2rem;
   }
 
   .exp-card {
@@ -101,10 +108,9 @@ export const Container = styled.div`
         width: fit-content;
         border-radius: 10px;
         border: 2px solid transparent;
-        border-color: #d9d9d9;
         background: #01cc9d;
         color: var(--color-contrast-light);
-        padding: 3px 5px;
+        padding: 3px 11px 3px 10px;
         font-weight: 500;
       }
     }
