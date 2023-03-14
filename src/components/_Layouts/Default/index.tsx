@@ -16,7 +16,8 @@ interface Props {
 const Default: React.FC<Props> = ({ children }) => {
   const { theme } = useTheme();
 
-  return (
+  return (  
+    console.log()
     <div id={theme}>
       <NavBar />
       <main>
