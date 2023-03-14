@@ -13,11 +13,11 @@ interface Props {
   children: React.ReactNode;
 }
 
+// Changed
 const Default: React.FC<Props> = ({ children }) => {
   const { theme } = useTheme();
 
-  return (  
-    console.log()
+  return (
     <div id={theme}>
       <NavBar />
       <main>
