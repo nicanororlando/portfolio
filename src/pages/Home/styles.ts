@@ -23,6 +23,7 @@ export const Section = styled.div`
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     box-shadow: inset 0 0 0 9px rgb(255, 255, 255 / 30%);
     order: 1;
     justify-self: center;
@@ -35,13 +36,22 @@ export const Section = styled.div`
     0% {
       border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     }
-
     50% {
       border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
     }
-
     100% {
       border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+  }
+
+  @keyframes zoomIn {
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
     }
   }
 

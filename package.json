@@ -29,6 +29,7 @@
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.6",
+    "typed.js": "^2.0.132",
     "typescript": "^4.9.4",
     "web-vitals": "^2.1.4"
   },

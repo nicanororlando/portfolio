@@ -11,8 +11,10 @@
   "home": {
     "data": {
       "hello": "Hello, It's me",
-      "home_subtitle_1": "And I am a ",
-      "home_subtitle_2": "Junior Full Stack Developer",
+      "home_subtitle": "And I am a ",
+      "home_subtitle_frontend": "Junior Frontend Developer.",
+      "home_subtitle_backend": "Junior Backend Developer.",
+      "home_subtitle_fullstack": "Junior Full Stack Developer.",
       "home_description": "I'm creative web developer based in Argentina, and I'm very passionate and dedicated to my work.",
       "hello_button": "Say hello"
     },
@@ -22,8 +24,14 @@
     "section_title": "About me",
     "section_subtitle": "My introduccion",
     "about_data": {
-      "about_description": "Frontend and backend developer, I create web pages with UI/UX user interface, and also server-side applications. I seek to continue learning and gaining experience.",
+      "about_description_1": "Frontend and backend developer, I create web pages with UI/UX user interface, and also server-side applications. I seek to continue learning and gaining experience.",
+      "about_description_2": "Nice, to meet you.",
+      "about_description_3": "Happy Coding ❤️",
+      "age": "Age",
+      "age_number": "23 Years",
       "download": "Download CV",
+      "work": "Work",
+      "work_status": "Currently working in KEMIS br.",
       "box": {
         "exp_title": "Experience",
         "exp_subtitle": "1+ Years Working",
@@ -140,7 +148,7 @@
       "second": {
         "title": "Front End Development",
         "subtitle": "Kemis",
-        "date": "April 2022 - August 2022"
+        "date": "June 2022 - Currently working"
       },
       "third": {
         "title": "Full Stack Development",

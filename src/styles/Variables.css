@@ -44,30 +44,37 @@
   --color-contrast-dark: #111;
   --color-contrast-light: #fff;
 
-  --nav-link-color: hsl(var(--hue), var(--sat), 50%);
+  --nav-link-color: #1f242d;
+  --nav-link-color-active: #008c93;
 
-  --text-color: hsl(var(--hue), var(--sat), 20%);
-  --text-color-active: hsl(var(--hue), var(--sat), 0%);
+  --text-color: #1f242d;
+  --text-color-active: #008c93;
 
-  --body-color: hsl(var(--hue), var(--sat), 90%);
-
+  --body-color: #e6e6e6;
   --container-color: #fff;
 
-  --button-bg-color: hsl(var(--hue), var(--sat), 20%);
-  --button-bg-color-active: hsl(var(--hue), var(--sat), 10%);
+  --button-bg-color: #008c93;
+  --button-bg-color-active: var(--body-color);
+  --button-bg-color-inverted: var(--body-color);
+  --button-bg-color-inverted-active: #008c93;
 
-  --button-color: hsl(var(--hue), var(--sat), 80%);
-  --button-color-active: hsl(var(--hue), var(--sat), 70%);
+  --button-color: var(--body-color);
+  --button-color-active: #008c93;
+  --button-color-inverted: #008c93;
+  --button-color-inverted-active: var(--body-color);
 
   --dropdown-item-bg-color: hsl(var(--hue), var(--sat), 98%);
   --dropdown-item-bg-color-hover: hsl(var(--hue), var(--sat), 95%);
 
-  --tab-bg-color: rgb(240, 240, 240);
-  --tab-bg-color-active: #01cc9d;
+  --tab-bg-color: var(--body-color);
+  --tab-bg-color-active: #00c6cf;
 
-  --animated-card-bg: rgb(240, 240, 240);
+  --slider-button-bg: #00c6cf;
 
-  --background-photo: url(../assets/Foto-mia-b&w-lightmode.jpg);
+  --border-primary: #008c93;
+
+  --background-photo: url(../assets/Foto-mia-lightmode.jpg);
+  --background-photo-bw: url(../assets/Foto-mia-b&w-lightmode.jpg);
 }
 
 #dark {
@@ -87,24 +94,27 @@
   --container-color: #2a3a52;
 
   --button-bg-color: #0ef;
-  --button-bg-color-active: #1f242d;
-  --button-bg-color-inverted: #1f242d;
+  --button-bg-color-active: var(--body-color);
+  --button-bg-color-inverted: var(--body-color);
   --button-bg-color-inverted-active: #0ef;
 
-  --button-color: #1f242d;
+  --button-color: var(--body-color);
   --button-color-active: #0ef;
   --button-color-inverted: #0ef;
-  --button-color-inverted-active: #1f242d;
+  --button-color-inverted-active: var(--body-color);
 
   --dropdown-item-bg-color: hsl(var(--hue), var(--sat), 2%);
   --dropdown-item-bg-color-hover: hsl(var(--hue), var(--sat), 10%);
 
-  --tab-bg-color: #1f242d;
+  --tab-bg-color: var(--body-color);
   --tab-bg-color-active: #90f8b5;
 
   --slider-button-bg: #90f8b5;
 
-  --background-photo: url(../assets/Foto-mia-b&w-darkmode.jpg);
+  --border-primary: #0ef;
+
+  --background-photo: url(../assets/Foto-mia-darkmode.jpg);
+  --background-photo-bw: url(../assets/Foto-mia-b&w-darkmode.jpg);
 }
 
 /* Responsive typography */

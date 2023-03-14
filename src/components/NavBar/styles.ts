@@ -63,7 +63,7 @@ export const NavMenu = styled.div<TogglerDL>`
     left: 0;
     width: 100%;
     padding: 2rem 0 0.8rem;
-    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 10px var(--border-primary);
     border-radius: 1.5rem 1.5rem 0 0;
     transition: 0.3s;
     background-color: var(--body-color);

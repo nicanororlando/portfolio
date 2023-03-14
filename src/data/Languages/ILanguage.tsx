@@ -11,8 +11,10 @@ export interface ILanguage {
   home: {
     data: {
       hello: string;
-      home_subtitle_1: string;
-      home_subtitle_2: string;
+      home_subtitle: string;
+      home_subtitle_frontend: string;
+      home_subtitle_backend: string;
+      home_subtitle_fullstack: string;
       home_description: string;
       hello_button: string;
     };
@@ -22,7 +24,13 @@ export interface ILanguage {
     section_title: string;
     section_subtitle: string;
     about_data: {
-      about_description: string;
+      about_description_1: string;
+      about_description_2: string;
+      about_description_3: string;
+      age: string;
+      age_number: string;
+      work: string;
+      work_status: string;
       download: string;
       box: {
         exp_title: string;

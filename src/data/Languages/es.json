@@ -11,8 +11,10 @@
   "home": {
     "data": {
       "hello": "Hola, mi nombre es",
-      "home_subtitle_1": "Y soy un ",
-      "home_subtitle_2": "Desarrollador Junior FullStack",
+      "home_subtitle": "Y soy un ",
+      "home_subtitle_frontend": "Desarrollador Junior Frontend.",
+      "home_subtitle_backend": "Desarrollador Junior Backend.",
+      "home_subtitle_fullstack": "Desarrollador Junior FullStack.",
       "home_description": "Soy desarrollador web, creativo y de rapido aprendizaje.",
       "hello_button": "Contáctame"
     },
@@ -22,7 +24,13 @@
     "section_title": "Acerca de mi",
     "section_subtitle": "Mi introduccion",
     "about_data": {
-      "about_description": "Desarrollador frontend y backend, creo páginas web con interfaz de usuario UI/UX, y tambien aplicaciones del lado del servidor. Busco seguir aprendiendo y ganando experiencia.",
+      "about_description_1": "Desarrollador frontend y backend, creo páginas web con interfaz de usuario UI/UX, y tambien aplicaciones del lado del servidor. Busco seguir aprendiendo y ganando experiencia.",
+      "about_description_2": "Encantado en conocerte!",
+      "about_description_3": "Happy Coding ❤️",
+      "age": "Edad: ",
+      "age_number": "23 Años",
+      "work": "Trabajo",
+      "work_status": "Actualmente trabajando en KEMIS br",
       "download": "Descargar CV",
       "box": {
         "exp_title": "Experiencia",
@@ -140,7 +148,7 @@
       "second": {
         "title": "Desarrollador Front End",
         "subtitle": "Kemis",
-        "date": "Abril 2022 - Agosto 2022"
+        "date": "Junio 2022 - Actualmente Trabajando"
       },
       "third": {
         "title": "Desarrollador Full Stack",

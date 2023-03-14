@@ -1,5 +1,5 @@
 .qualification__container {
-  max-width: 768px;
+  /* max-width: 768px; */
 }
 
 .qualification__tabs {
@@ -37,10 +37,12 @@
 
 .qualification__content {
   display: none;
+  width: 1000px;
 }
 
 .qualification__content-active {
   display: block;
+  width: 1000px;
 }
 
 .qualification__data {

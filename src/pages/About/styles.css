@@ -3,12 +3,14 @@
   align-items: center;
   column-gap: 4rem;
 }
+
 .about__img {
-  background: var(--background-photo);
+  background: var(--background-photo-bw);
   background-position: center;
   background-size: cover;
   justify-self: center;
   border-radius: 1.5rem;
+  box-shadow: 0 0 10px var(--border-primary);
   width: 350px;
   height: 350px;
 }

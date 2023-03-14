@@ -98,7 +98,7 @@ img {
   display: inline-block;
   padding: 1.25rem 2rem;
   border-radius: 1rem;
-  box-shadow: 0 0 10px var(--button-bg-color);
+  box-shadow: 0 0 10px var(--border-primary);
   font-weight: var(--font-semi-bold);
 }
 #light .button {
@@ -141,8 +141,8 @@ img {
   text-decoration: none;
   margin: 8px;
   opacity: 0;
-  animation: slideLeft 1s ease forwards;
-  animation-delay: 0.7s;
+  animation: slideTop 1s ease forwards;
+  animation-delay: calc(0.2s * var(--i));
 }
 
 .social-icon:hover {
