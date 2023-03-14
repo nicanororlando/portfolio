@@ -22,6 +22,10 @@ export const Container = styled.footer`
     margin-bottom: 3rem;
   }
 
+  .text-small {
+    font-size: 17px;
+  }
+
   .list {
     display: flex;
     justify-content: center;

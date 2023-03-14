@@ -9,7 +9,9 @@ const Footer: React.FC = () => {
   return (
     <Foot>
       <Container>
-        <h1 className="title">Nicanor Orlando</h1>
+        <h1 className="title">
+          Portfolio <small className="text-small">v.2.0</small>
+        </h1>
         <ul className="list">
           <li>
             <a href="#about" className="link">
@@ -17,8 +19,8 @@ const Footer: React.FC = () => {
             </a>
           </li>
           <li>
-            <a href="#portfolio" className="link">
-              {language.navBar.portfolio}
+            <a href="#projects" className="link">
+              {language.navBar.projects}
             </a>
           </li>
           <li>
