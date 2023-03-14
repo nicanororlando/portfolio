@@ -32,16 +32,16 @@ const About: React.FC = () => {
           <p className="m-0 animate-left">
             {language.about.about_data.about_description_3}
           </p>
-          <div className="d-flex flew-row mt-3 mb-4 animate-left">
+          <div className="d-flex flew-row mt-3 mb-4 more animate-left">
             <span className="me-5">
               <MdElderly />
               <div>{language.about.about_data.age}</div>
-              <h5>{language.about.about_data.age_number}</h5>
+              <h6 className="mt-1">{language.about.about_data.age_number}</h6>
             </span>
             <span>
               <BsPersonWorkspace />
               <div>{language.about.about_data.work}</div>
-              <h6 className="mt-05">{language.about.about_data.work_status}</h6>
+              <h6 className="mt-1">{language.about.about_data.work_status}</h6>
             </span>
           </div>
 

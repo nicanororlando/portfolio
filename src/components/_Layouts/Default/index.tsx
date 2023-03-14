@@ -11,7 +11,7 @@ import Footer from "pages/Footer";
 import Projects from "pages/Projects";
 
 interface Props {
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }
 
 const Default: React.FC<Props> = ({ children }) => {

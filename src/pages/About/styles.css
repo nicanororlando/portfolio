@@ -28,6 +28,10 @@
     width: 220px;
     height: 220px;
   }
+
+  .more {
+    justify-content: center;
+  }
 }
 
 /* sm */
