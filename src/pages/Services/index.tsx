@@ -17,7 +17,7 @@ const Services: React.FC = () => {
       </span>
 
       <div className="services__container container grid">
-        <div className="services__content">
+        <div className="services__content animate-left">
           <i className="uil uil-web-grid services__icon"></i>
           <h3 className="services__title">
             {language.services.service_1.services_title_1} <br />
@@ -80,7 +80,7 @@ const Services: React.FC = () => {
           </div>
         </div>
 
-        <div className="services__content">
+        <div className="services__content animate-left">
           <i className="uil uil-arrow services__icon"></i>
           <h3 className="services__title">
             {language.services.service_2.services_title_1} <br />
@@ -143,7 +143,7 @@ const Services: React.FC = () => {
           </div>
         </div>
 
-        <div className="services__content">
+        <div className="services__content animate-left">
           <i className="uil uil-brackets-curly services__icon"></i>
           <h3 className="services__title">
             {language.services.service_3.services_title_1} <br />

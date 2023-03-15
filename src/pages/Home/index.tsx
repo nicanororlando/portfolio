@@ -4,8 +4,6 @@ import HomeData from "./HomeData";
 import ScrollDown from "./ScrollDown";
 import { Section } from "./styles";
 
-interface IProps {}
-
 const Home: React.FC = () => {
   return (
     <Section className="home section" id="home">
