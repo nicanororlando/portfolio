@@ -5,7 +5,7 @@ export interface ILanguage {
     skills: string;
     projects: string;
     services: string;
-    portfolio: string;
+    travel: string;
     contact: string;
   };
   home: {
