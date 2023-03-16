@@ -8,7 +8,7 @@ export const Container = styled.div``;
 
 export const Header = styled.div`
   background-color: var(--body-color);
-  width: 95%;
+  width: 90%;
   position: fixed;
   top: 0;
   left: 0;

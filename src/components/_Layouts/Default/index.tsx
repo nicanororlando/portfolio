@@ -50,7 +50,7 @@ const Default: React.FC<Props> = () => {
   ]);
 
   return (
-    <div id={theme}>
+    <div id={theme} className="overflow-hidden">
       <NavBar activeElement={activeElement} />
       <main className="container">
         {/* {/* <div className="container"> */}
