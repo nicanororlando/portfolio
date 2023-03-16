@@ -52,11 +52,12 @@ const Frontend = () => {
         "#F16529",
         "#264de4",
         "#f0db4f",
+        "#007acc",
+        "#61DBFB",
         "#563d7c",
         "#38bbf8",
         "#1565C0",
         "#d0312d",
-        "#61DBFB",
       ],
       legend: {
         show: true,
