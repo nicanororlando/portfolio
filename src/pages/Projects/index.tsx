@@ -16,7 +16,7 @@ const Projects: React.FC = () => {
 
   return (
     <ModelProfile>
-      <Section className="contact section" id="projects">
+      <Section className="section" id="projects">
         <h2 className="section__title">{language.projects.section_title}</h2>
         <span className="section__subtitle">
           {language.projects.section_subtitle}

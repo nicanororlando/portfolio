@@ -89,17 +89,13 @@
 /*------------------------------ BREAKPOINTS --------------------------------*/
 /* lg */
 @media screen and (max-width: 992px) {
-  .qualification__container {
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
 
 /* md */
 @media screen and (max-width: 768px) {
   .qualification__container {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
   }
   .qualification__content {
     width: max-content;
@@ -122,7 +118,7 @@
 /* xs */
 @media screen and (max-width: 350px) {
   .qualification__content {
-    width: 300px;
+    width: 250px;
   }
   .qualification__data {
     gap: 0.5rem;

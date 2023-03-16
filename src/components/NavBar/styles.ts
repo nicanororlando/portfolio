@@ -8,10 +8,12 @@ export const Container = styled.div``;
 
 export const Header = styled.div`
   background-color: var(--body-color);
-  width: 100%;
+  width: 95%;
   position: fixed;
   top: 0;
   left: 0;
+  right: 0;
+  margin: auto;
   z-index: var(--z-fixed);
 
   /*------------------------------ BREAKPOINTS --------------------------------*/

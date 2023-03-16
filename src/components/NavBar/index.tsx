@@ -28,7 +28,7 @@ const NavBar: React.FC<IProps> = ({ activeElement }) => {
   );
 
   return (
-    <Container className="d-flex flex-column p-10">
+    <Container className="d-flex flex-column">
       <Header>
         <Nav className="container">
           {/* <a href="/portfolio" className="nav__logo">

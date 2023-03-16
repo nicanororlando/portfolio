@@ -10,19 +10,15 @@ export const BodyStructure = styled.div`
     padding-right: 15%;
   }
   @media screen and (max-width: 777px) {
-    padding-left: 20%;
-    padding-right: 8%;
-  }
-  @media screen and (max-width: 593px) {
-    padding-left: 22%;
+    padding-left: 8%;
     padding-right: 8%;
   }
   @media screen and (max-width: 517px) {
-    padding-left: 25%;
+    padding-left: 8%;
     padding-right: 8%;
   }
   @media screen and (max-width: 458px) {
-    padding-left: 30%;
+    padding-left: 0%;
     padding-right: 0%;
   }
 `;

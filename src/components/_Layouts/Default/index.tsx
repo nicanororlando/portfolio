@@ -52,46 +52,46 @@ const Default: React.FC<Props> = () => {
   return (
     <div id={theme}>
       <NavBar activeElement={activeElement} />
-      <main>
-        <div className="container">
-          <div ref={refHome} className={inViewHome ? "animate" : "opacity-0"}>
-            <Home />
-          </div>
-          <div ref={refAbout} className={inViewAbout ? "animate" : "opacity-0"}>
-            <About />
-          </div>
-          <div
+      <main className="container">
+        {/* {/* <div className="container"> */}
+        {/* <div ref={refHome} className={inViewHome ? "animate" : "opacity-0"}> */}
+        <Home />
+        {/* </div>
+          <div ref={refAbout} className={inViewAbout ? "animate" : "opacity-0"}> */}
+        <About />
+        {/* </div> */}
+        {/* <div
             ref={refSkills}
             className={inViewSkills ? "animate" : "opacity-0"}
-          >
-            <Skills />
-          </div>
+          > */}
+        <Skills />
+        {/* </div>
           <div
             ref={refProjects}
             className={inViewProjects ? "animate" : "opacity-0"}
-          >
-            <Projects />
-          </div>
+          > */}
+        <Projects />
+        {/* </div>
           <div
             ref={refServices}
             className={inViewServices ? "animate" : "opacity-0"}
-          >
-            <Services />
-          </div>
+          > */}
+        <Services />
+        {/* </div>
           <div
             ref={refTravel}
             className={inViewTravel ? "animate" : "opacity-0"}
-          >
-            <Travel />
-          </div>
+          > */}
+        <Travel />
+        {/* </div>
           <div
             ref={refContact}
             className={inViewContact ? "animate" : "opacity-0"}
-          >
-            <Contact />
-          </div>
-          <Footer />
-        </div>
+          > */}
+        <Contact />
+        {/* </div> */}
+        <Footer />
+        {/* </div> */}
       </main>
     </div>
   );
