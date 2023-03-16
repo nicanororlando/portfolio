@@ -120,7 +120,7 @@ export interface ILanguage {
       };
     };
   };
-  portfolio: {
+  travel: {
     section_title: string;
     section_subtitle: string;
     education: {

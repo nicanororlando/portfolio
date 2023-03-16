@@ -15,7 +15,7 @@ interface Props {
   children?: React.ReactNode;
 }
 
-const Default: React.FC<Props> = ({ children }) => {
+const Default: React.FC<Props> = () => {
   const { theme } = useTheme();
   const [activeElement, setActiveElement] = useState("#");
 

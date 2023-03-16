@@ -15,7 +15,7 @@
       "home_subtitle_frontend": "Desarrollador Junior Frontend.",
       "home_subtitle_backend": "Desarrollador Junior Backend.",
       "home_subtitle_fullstack": "Desarrollador Junior FullStack.",
-      "home_description": "Soy desarrollador web, creativo y de rapido aprendizaje.",
+      "home_description": "Soy desarrollador autodidacta Full Stack generalizador, especializado en Reactjs y Java.",
       "hello_button": "Contáctame"
     },
     "scrollDown": "Ir abajo"
@@ -24,7 +24,7 @@
     "section_title": "Acerca de mi",
     "section_subtitle": "Mi introduccion",
     "about_data": {
-      "about_description_1": "Desarrollador frontend y backend, creo páginas web con interfaz de usuario UI/UX, y tambien aplicaciones del lado del servidor. Busco seguir aprendiendo y ganando experiencia.",
+      "about_description_1": "Desarrollador frontend y backend, creo páginas web con interfaz de usuario UI/UX, y también aplicaciones del lado del servidor. Busco seguir aprendiendo y también estoy muy interesado en colaborar en un equipo ágil.",
       "about_description_2": "Encantado en conocerte!",
       "about_description_3": "Happy Coding ❤️",
       "age": "Edad: ",
@@ -119,9 +119,9 @@
       }
     }
   },
-  "portfolio": {
-    "section_title": "Cualificacion",
-    "section_subtitle": "Mi viaje personal",
+  "travel": {
+    "section_title": "Recorrido",
+    "section_subtitle": "Mi recorrido personal",
     "education": {
       "first": {
         "title": "Ingenieria Electronica",
@@ -148,7 +148,7 @@
       "second": {
         "title": "Desarrollador Front End",
         "subtitle": "Kemis",
-        "date": "Junio 2022 - Actualmente Trabajando"
+        "date": "Agosto 2022 - Actualmente Trabajando"
       },
       "third": {
         "title": "Desarrollador Full Stack",

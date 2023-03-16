@@ -11,9 +11,9 @@ const Travel: React.FC = () => {
 
   return (
     <section className="qualification section" id="travel">
-      <h2 className="section__title">{language.portfolio.section_title}</h2>
+      <h2 className="section__title">{language.travel.section_title}</h2>
       <span className="section__subtitle">
-        {language.portfolio.section_subtitle}
+        {language.travel.section_subtitle}
       </span>
 
       <div className="qualification__container container">
@@ -54,14 +54,14 @@ const Travel: React.FC = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
-                  {language.portfolio.education.first.title}
+                  {language.travel.education.first.title}
                 </h3>
                 <span className="qualification__subtitle">
-                  {language.portfolio.education.first.subtitle}
+                  {language.travel.education.first.subtitle}
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt">
-                    {language.portfolio.education.first.date}
+                    {language.travel.education.first.date}
                   </i>
                 </div>
               </div>
@@ -82,14 +82,14 @@ const Travel: React.FC = () => {
 
               <div>
                 <h3 className="qualification__title">
-                  {language.portfolio.education.second.title}
+                  {language.travel.education.second.title}
                 </h3>
                 <span className="qualification__subtitle">
-                  {language.portfolio.education.second.subtitle}
+                  {language.travel.education.second.subtitle}
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt">
-                    {language.portfolio.education.second.date}
+                    {language.travel.education.second.date}
                   </i>
                 </div>
               </div>
@@ -98,14 +98,14 @@ const Travel: React.FC = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
-                  {language.portfolio.education.third.title}
+                  {language.travel.education.third.title}
                 </h3>
                 <span className="qualification__subtitle">
-                  {language.portfolio.education.third.subtitle}
+                  {language.travel.education.third.subtitle}
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt">
-                    {language.portfolio.education.third.date}
+                    {language.travel.education.third.date}
                   </i>
                 </div>
               </div>
@@ -127,14 +127,14 @@ const Travel: React.FC = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
-                  {language.portfolio.experience.first.title}
+                  {language.travel.experience.first.title}
                 </h3>
                 <span className="qualification__subtitle">
-                  {language.portfolio.experience.first.subtitle}
+                  {language.travel.experience.first.subtitle}
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt">
-                    {language.portfolio.experience.first.date}
+                    {language.travel.experience.first.date}
                   </i>
                 </div>
               </div>
@@ -155,14 +155,14 @@ const Travel: React.FC = () => {
 
               <div>
                 <h3 className="qualification__title">
-                  {language.portfolio.experience.second.title}
+                  {language.travel.experience.second.title}
                 </h3>
                 <span className="qualification__subtitle">
-                  {language.portfolio.experience.second.subtitle}
+                  {language.travel.experience.second.subtitle}
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt">
-                    {language.portfolio.experience.second.date}
+                    {language.travel.experience.second.date}
                   </i>
                 </div>
               </div>
@@ -171,14 +171,14 @@ const Travel: React.FC = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
-                  {language.portfolio.experience.third.title}
+                  {language.travel.experience.third.title}
                 </h3>
                 <span className="qualification__subtitle">
-                  {language.portfolio.experience.third.subtitle}
+                  {language.travel.experience.third.subtitle}
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt">
-                    {language.portfolio.experience.third.date}
+                    {language.travel.experience.third.date}
                   </i>
                 </div>
               </div>
