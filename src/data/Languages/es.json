@@ -194,5 +194,8 @@
         "success": "¡Enviado!"
       }
     }
+  },
+  "footer": {
+    "page_languages": "Este sitio web fue construido utilizando principalmente React, Bootstrap y TypeScript."
   }
 }

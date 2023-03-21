@@ -196,4 +196,7 @@ export interface ILanguage {
       };
     };
   };
+  footer: {
+    page_languages: string;
+  };
 }

@@ -19,11 +19,15 @@ export const Container = styled.footer`
 
   .title {
     text-align: center;
-    margin-bottom: 3rem;
   }
 
   .text-small {
     font-size: 17px;
+  }
+
+  h6 {
+    margin-bottom: 3rem;
+    font-size: 10px;
   }
 
   .list {
@@ -35,7 +39,7 @@ export const Container = styled.footer`
   }
 
   .link:hover {
-    color: var(--title-color-active);
+    color: var(--text-color-active);
   }
 
   .social {

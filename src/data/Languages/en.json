@@ -130,12 +130,12 @@
       },
       "second": {
         "title": "Front End Development",
-        "subtitle": "Argentina - By myself",
+        "subtitle": "Argentina - Self-taught",
         "date": "2021 - Present"
       },
       "third": {
         "title": "Back End Development",
-        "subtitle": "Argentina - By myself",
+        "subtitle": "Argentina - Self-taught",
         "date": "2022 - Present"
       }
     },
@@ -194,5 +194,8 @@
         "success": "¡Done!"
       }
     }
+  },
+  "footer": {
+    "page_languages": "This website was built using mainly React, Bootstrap and TypeScript."
   }
 }
