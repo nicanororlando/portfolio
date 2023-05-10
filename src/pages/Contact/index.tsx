@@ -2,7 +2,6 @@ import { useLanguage } from "hooks/useLanguage";
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Card from "components/Card";
-import { Send } from "assets/Svg";
 import { Container, Content, Info, Section } from "./styles";
 import { FiSend } from "react-icons/fi";
 

@@ -47,6 +47,7 @@ export interface ILanguage {
     section_subtitle: string;
     frontend_title: string;
     backend_title: string;
+    show_charts: string;
     levels: {
       initial: string;
       basic: string;

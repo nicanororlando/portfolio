@@ -54,6 +54,7 @@ const Frontend = () => {
         "#f0db4f",
         "#007acc",
         "#61DBFB",
+        "ffffff",
         "#563d7c",
         "#38bbf8",
         "#1565C0",

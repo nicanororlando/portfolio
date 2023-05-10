@@ -12,9 +12,9 @@
     "data": {
       "hello": "Hello, It's me",
       "home_subtitle": "And I am a ",
-      "home_subtitle_frontend": "Junior Frontend Developer.",
-      "home_subtitle_backend": "Junior Backend Developer.",
-      "home_subtitle_fullstack": "Junior Full Stack Developer.",
+      "home_subtitle_frontend": "Frontend Developer.",
+      "home_subtitle_backend": "Backend Developer.",
+      "home_subtitle_fullstack": "Full Stack Developer.",
       "home_description": "Generalizing self-taught Full Stack Developer, specializing in Reactjs and Java.",
       "hello_button": "Say hello"
     },
@@ -47,6 +47,7 @@
     "section_subtitle": "My technical level",
     "frontend_title": "Frontend",
     "backend_title": "Backend",
+    "show_charts": "Show charts",
     "levels": {
       "initial": "Initial",
       "basic": "Basic",

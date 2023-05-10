@@ -8,7 +8,7 @@ import "./styles.css";
 
 const Skills = () => {
   const { language } = useLanguage();
-  const [showCharts, setShowCharts] = useState(true);
+  const [showCharts, setShowCharts] = useState(false);
 
   const handleSwitch = () => {
     setShowCharts((curr) => (curr === false ? true : false));
@@ -32,7 +32,7 @@ const Skills = () => {
             onChange={handleSwitch}
           />
           <label className="form-check-label" htmlFor="flexSwitchCheckChecked">
-            Show charts
+            {language.skills.show_charts}
           </label>
         </div>
 

@@ -3,23 +3,27 @@ import { ISkills } from "models/Skills";
 export const FrontEndSkills: ISkills[] = [
   {
     title: "HTML",
-    level: 110,
-  },
-  {
-    title: "CSS",
-    level: 100,
-  },
-  {
-    title: "JavaScript",
     level: 105,
   },
   {
+    title: "CSS",
+    level: 105,
+  },
+  {
+    title: "JavaScript",
+    level: 135,
+  },
+  {
     title: "TypeScript",
-    level: 100,
+    level: 135,
   },
   {
     title: "Reactjs",
-    level: 115,
+    level: 135,
+  },
+  {
+    title: "Nextjs",
+    level: 70,
   },
   {
     title: "Bootstrap",
@@ -31,10 +35,10 @@ export const FrontEndSkills: ISkills[] = [
   },
   {
     title: "Angularjs Material",
-    level: 40,
+    level: 50,
   },
   {
     title: "Angularjs",
-    level: 60,
+    level: 50,
   },
 ];

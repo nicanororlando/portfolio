@@ -93,7 +93,7 @@ const NavBar: React.FC<IProps> = ({ activeElement }) => {
                     <div>{language.navBar.projects}</div>
                   </a>
                 </li>
-                <li
+                {/* <li
                   style={{ "--i": 5 } as React.CSSProperties}
                   className="hide-sm"
                 >
@@ -109,7 +109,7 @@ const NavBar: React.FC<IProps> = ({ activeElement }) => {
                     <i className="uil uil-briefcase-alt nav__icon"></i>
                     <div>{language.navBar.services}</div>
                   </a>
-                </li>
+                </li> */}
                 <li style={{ "--i": 6 } as React.CSSProperties}>
                   <a
                     href="#travel"

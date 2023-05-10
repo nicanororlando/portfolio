@@ -12,9 +12,9 @@
     "data": {
       "hello": "Hola, mi nombre es",
       "home_subtitle": "Y soy un ",
-      "home_subtitle_frontend": "Desarrollador Junior Frontend.",
-      "home_subtitle_backend": "Desarrollador Junior Backend.",
-      "home_subtitle_fullstack": "Desarrollador Junior FullStack.",
+      "home_subtitle_frontend": "Desarrollador Frontend.",
+      "home_subtitle_backend": "Desarrollador Backend.",
+      "home_subtitle_fullstack": "Desarrollador FullStack.",
       "home_description": "Soy desarrollador autodidacta Full Stack generalizador, especializado en Reactjs y Java.",
       "hello_button": "Contáctame"
     },
@@ -47,6 +47,7 @@
     "section_subtitle": "Mis habilidades tecnicas",
     "frontend_title": "Frontend",
     "backend_title": "Backend",
+    "show_charts": "Mostrar graficos",
     "levels": {
       "initial": "Inicial",
       "basic": "Básico",

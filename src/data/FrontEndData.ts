@@ -12,13 +12,13 @@ export const useFrontEndProjectsData = () => {
         {
           id: 0,
           images: [
-            "kemis/image1.png",
-            "kemis/image2.png",
-            "kemis/image3.png",
-            "kemis/image4.png",
-            "kemis/image5.png",
-            "kemis/image6.png",
-            "kemis/image7.png",
+            "kemis/builder/image1.png",
+            "kemis/builder/image2.png",
+            "kemis/builder/image3.png",
+            "kemis/builder/image4.png",
+            "kemis/builder/image5.png",
+            "kemis/builder/image6.png",
+            "kemis/builder/image7.png",
           ],
           title: "Construye tu casa | Kemis",
           description:
@@ -34,6 +34,25 @@ export const useFrontEndProjectsData = () => {
         },
         {
           id: 1,
+          images: [
+            "kemis/conformity/image1.png",
+            "kemis/conformity/image2.png",
+            "kemis/conformity/image3.png",
+          ],
+          title: "Conformity | Kemis",
+          description: "Proyecto a pedido de cliente, para administrar datos.",
+          languajeImages: [
+            "html-5.png",
+            "css3.png",
+            "bootstrap.png",
+            "reactjs.png",
+            "typescript.png",
+            "nextjs.png",
+          ],
+          linkRedirect: "https://conformity.vercel.app/en",
+        },
+        {
+          id: 2,
           images: [
             "adventist-beliefs/image1.png",
             "adventist-beliefs/image2.png",
@@ -56,7 +75,23 @@ export const useFrontEndProjectsData = () => {
           linkRedirect: "",
         },
         {
-          id: 2,
+          id: 3,
+          images: ["kemis/erp/image1.png", "kemis/erp/image2.png"],
+          title: "ERP | Kemis",
+          description:
+            "Este proyecto es parte de un sistema más grande y completo del cliente. En este caso se manejan diferentes tipos de datos de clientes, empleados o también candidatos",
+          languajeImages: [
+            "html-5.png",
+            "css3.png",
+            "tailwind.png",
+            "reactjs.png",
+            "typescript.png",
+            "nextjs.png",
+          ],
+          linkRedirect: "",
+        },
+        {
+          id: 4,
           images: [
             "restaurant/image1.png",
             "restaurant/image2.png",
@@ -69,11 +104,11 @@ export const useFrontEndProjectsData = () => {
           linkRedirect: "",
         },
         {
-          id: 3,
+          id: 5,
           images: ["giffy/image1.png", "giffy/image2.png"],
           title: "Giffy",
           description:
-            "Este proyecto realiza solicitudes a una API externa, que devuelve una lista de Gifs, según el parámetro de búsqueda que se le envíe.",
+            "Este proyecto personal (para reirme un rato) realiza solicitudes a una API externa, que devuelve una lista de Gifs, según el parámetro de búsqueda que se le envíe.",
           languajeImages: ["html-5.png", "css3.png", "js.png", "reactjs.png"],
           linkRedirect: "",
         },
@@ -83,13 +118,13 @@ export const useFrontEndProjectsData = () => {
         {
           id: 0,
           images: [
-            "kemis/image1.png",
-            "kemis/image2.png",
-            "kemis/image3.png",
-            "kemis/image4.png",
-            "kemis/image5.png",
-            "kemis/image6.png",
-            "kemis/image7.png",
+            "kemis/builder/image1.png",
+            "kemis/builder/image2.png",
+            "kemis/builder/image3.png",
+            "kemis/builder/image4.png",
+            "kemis/builder/image5.png",
+            "kemis/builder/image6.png",
+            "kemis/builder/image7.png",
           ],
           title: "Build your house | Kemis",
           description:
@@ -105,6 +140,25 @@ export const useFrontEndProjectsData = () => {
         },
         {
           id: 1,
+          images: [
+            "kemis/conformity/image1.png",
+            "kemis/conformity/image2.png",
+            "kemis/conformity/image3.png",
+          ],
+          title: "Conformity",
+          description: "Project at the request of a client, to manage data.",
+          languajeImages: [
+            "html-5.png",
+            "css3.png",
+            "bootstrap.png",
+            "reactjs.png",
+            "typescript.png",
+            "nextjs.png",
+          ],
+          linkRedirect: "https://conformity.vercel.app/en",
+        },
+        {
+          id: 2,
           images: [
             "adventist-beliefs/image1.png",
             "adventist-beliefs/image2.png",
@@ -127,7 +181,23 @@ export const useFrontEndProjectsData = () => {
           linkRedirect: "",
         },
         {
-          id: 2,
+          id: 3,
+          images: ["kemis/erp/image1.png", "kemis/erp/image2.png"],
+          title: "ERP | Kemis",
+          description:
+            "This project is part of a larger and more complete client system. In this case, different types of customer, employee or candidate data are handled",
+          languajeImages: [
+            "html-5.png",
+            "css3.png",
+            "tailwind.png",
+            "reactjs.png",
+            "typescript.png",
+            "nextjs.png",
+          ],
+          linkRedirect: "",
+        },
+        {
+          id: 3,
           images: [
             "restaurant/image1.png",
             "restaurant/image2.png",
@@ -140,11 +210,11 @@ export const useFrontEndProjectsData = () => {
           linkRedirect: "",
         },
         {
-          id: 3,
+          id: 4,
           images: ["giffy/image1.png", "giffy/image2.png"],
           title: "Giffy",
           description:
-            "This project makes requests to an external API, which returns a list of Gifs, depending on the search parameter that is sent to it.",
+            "This personal project (for fun) makes requests to an external API, which returns a list of Gifs, depending on the search parameter that is sent to it.",
           languajeImages: ["html-5.png", "css3.png", "js.png", "reactjs.png"],
           linkRedirect: "",
         },
