@@ -31,9 +31,6 @@ const NavBar: React.FC<IProps> = ({ activeElement }) => {
     <Container className="d-flex flex-column">
       <Header>
         <Nav className="container">
-          {/* <a href="/portfolio" className="nav__logo">
-            Nica Orlando
-          </a> */}
           <NavMenu active={ToggleMenu}>
             <NavList className="container">
               <ul className="nav__list">
@@ -110,7 +107,7 @@ const NavBar: React.FC<IProps> = ({ activeElement }) => {
                     <div>{language.navBar.services}</div>
                   </a>
                 </li> */}
-                <li style={{ "--i": 6 } as React.CSSProperties}>
+                {/* <li style={{ "--i": 6 } as React.CSSProperties}>
                   <a
                     href="#travel"
                     className={
@@ -123,11 +120,8 @@ const NavBar: React.FC<IProps> = ({ activeElement }) => {
                     <i className="uil uil-scenery nav__icon"></i>
                     <div>{language.navBar.travel}</div>
                   </a>
-                </li>
-                <li
-                  style={{ "--i": 7 } as React.CSSProperties}
-                  className="mr-20"
-                >
+                </li> */}
+                <li style={{ "--i": 5 } as React.CSSProperties}>
                   <a
                     href="#contact"
                     className={
@@ -141,6 +135,7 @@ const NavBar: React.FC<IProps> = ({ activeElement }) => {
                     <div>{language.navBar.contact}</div>
                   </a>
                 </li>
+                <div className="ml-20" />
                 <Dropdown
                   options={["es", "en"]}
                   onSelect={onSelectOption}

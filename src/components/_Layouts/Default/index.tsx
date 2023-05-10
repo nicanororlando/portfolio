@@ -4,7 +4,6 @@ import { useTheme } from "hooks/useTheme";
 import Home from "pages/Home";
 import About from "pages/About";
 import Skills from "pages/Skills";
-import Travel from "pages/Travel";
 import Contact from "pages/Contact";
 import Footer from "pages/Footer";
 import Projects from "pages/Projects";
@@ -35,7 +34,6 @@ const Default: React.FC<Props> = () => {
     if (inViewSkills) setActiveElement("#skills");
     if (inViewProjects) setActiveElement("#projects");
     if (inViewServices) setActiveElement("#services");
-    if (inViewTravel) setActiveElement("#travel");
     if (inViewContact) setActiveElement("#contact");
   }, [
     inViewAbout,
@@ -55,7 +53,6 @@ const Default: React.FC<Props> = () => {
         <About />
         <Skills />
         <Projects />
-        <Travel />
         <Contact />
         <Footer />
       </main>
