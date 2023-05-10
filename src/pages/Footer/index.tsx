@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
     <Foot>
       <Container>
         <h1 className="title">
-          Portfolio <small className="text-small">v.2.0</small>
+          Portfolio <small className="text-small">v.2.2</small>
         </h1>
         <h6 className="col-4 mx-auto small text-center">
           {language.footer.page_languages}
