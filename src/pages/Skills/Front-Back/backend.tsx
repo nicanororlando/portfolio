@@ -15,7 +15,7 @@ const Backend = () => {
             <div>
               <h3 className="skills__name">Java</h3>
               <span className="skills__level">
-                {language.skills.levels.intermediate}
+                {language.skills.levels.advanced}
               </span>
             </div>
           </div>
@@ -25,7 +25,7 @@ const Backend = () => {
             <div>
               <h3 className="skills__name">Spring Boot</h3>
               <span className="skills__level">
-                {language.skills.levels.intermediate}
+                {language.skills.levels.advanced}
               </span>
             </div>
           </div>
@@ -35,7 +35,7 @@ const Backend = () => {
             <div>
               <h3 className="skills__name">Nodejs</h3>
               <span className="skills__level">
-                {language.skills.levels.basic}
+                {language.skills.levels.intermediate}
               </span>
             </div>
           </div>
@@ -45,7 +45,7 @@ const Backend = () => {
             <div>
               <h3 className="skills__name">Express</h3>
               <span className="skills__level">
-                {language.skills.levels.intermediate}
+                {language.skills.levels.basic}
               </span>
             </div>
           </div>
@@ -57,7 +57,7 @@ const Backend = () => {
             <div>
               <h3 className="skills__name">C#</h3>
               <span className="skills__level">
-                {language.skills.levels.intermediate}
+                {language.skills.levels.advanced}
               </span>
             </div>
           </div>
@@ -67,7 +67,7 @@ const Backend = () => {
             <div>
               <h3 className="skills__name">.NET</h3>
               <span className="skills__level">
-                {language.skills.levels.basic}
+                {language.skills.levels.intermediate}
               </span>
             </div>
           </div>
@@ -77,7 +77,7 @@ const Backend = () => {
             <div>
               <h3 className="skills__name">MySQL</h3>
               <span className="skills__level">
-                {language.skills.levels.basic}
+                {language.skills.levels.intermediate}
               </span>
             </div>
           </div>
@@ -87,7 +87,7 @@ const Backend = () => {
             <div>
               <h3 className="skills__name">Mongodb</h3>
               <span className="skills__level">
-                {language.skills.levels.intermediate}
+                {language.skills.levels.basic}
               </span>
             </div>
           </div>
