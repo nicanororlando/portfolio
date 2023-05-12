@@ -7,7 +7,7 @@ export const BackendSkills: ISkills[] = [
   },
   {
     title: "C#",
-    level: 20,
+    level: 40,
   },
   {
     title: "Nodejs",

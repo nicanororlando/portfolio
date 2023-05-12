@@ -22,7 +22,7 @@ export const useFrontEndProjectsData = () => {
           ],
           title: "Construye tu casa | Kemis",
           description:
-            "Proyecto realizado para que cualquier persona pueda diseñar y personalizar la construcción de su casa. Luego, de acuerdo a las selecciones, se hace un presupuesto total, tanto para construirlo como para venderlo. *Aclaración: Este proyecto pertenece a la empresa Harvey Constructor, y es privado, por eso no puedo compartir la página web.",
+            "(Privado) Proyecto realizado para que cualquier persona pueda diseñar y personalizar la construcción de su casa. Luego, de acuerdo a las selecciones, se hace un presupuesto total, tanto para construirlo como para venderlo. *Aclaración: Este proyecto pertenece a la empresa Harvey Constructor, y es privado, por eso no puedo compartir la página web.",
           languajeImages: [
             "html-5.png",
             "css3.png",
@@ -40,7 +40,8 @@ export const useFrontEndProjectsData = () => {
             "kemis/conformity/image3.png",
           ],
           title: "Conformity | Kemis",
-          description: "Proyecto a pedido de cliente, para administrar datos.",
+          description:
+            "(Privado) Proyecto a pedido de cliente, para administrar datos.",
           languajeImages: [
             "html-5.png",
             "css3.png",
@@ -79,7 +80,7 @@ export const useFrontEndProjectsData = () => {
           images: ["kemis/erp/image1.png", "kemis/erp/image2.png"],
           title: "ERP | Kemis",
           description:
-            "Este proyecto es parte de un sistema más grande y completo del cliente. En este caso se manejan diferentes tipos de datos de clientes, empleados o también candidatos",
+            "(Privado) Este proyecto es parte de un sistema más grande y completo del cliente. En este caso se manejan diferentes tipos de datos de clientes, empleados o también candidatos",
           languajeImages: [
             "html-5.png",
             "css3.png",
@@ -128,7 +129,7 @@ export const useFrontEndProjectsData = () => {
           ],
           title: "Build your house | Kemis",
           description:
-            "Project made so that anyone can design and customize the construction of their house. Then, according to the selections, a total budget is made, both to build it and to sell it. *Clarification: This project belongs to the company Harvey Constructor, and it is private, that is why I cannot share the web page.",
+            "´(Private) Project made so that anyone can design and customize the construction of their house. Then, according to the selections, a total budget is made, both to build it and to sell it. *Clarification: This project belongs to the company Harvey Constructor, and it is private, that is why I cannot share the web page.",
           languajeImages: [
             "html-5.png",
             "css3.png",
@@ -145,8 +146,9 @@ export const useFrontEndProjectsData = () => {
             "kemis/conformity/image2.png",
             "kemis/conformity/image3.png",
           ],
-          title: "Conformity",
-          description: "Project at the request of a client, to manage data.",
+          title: "Conformity | Kemis",
+          description:
+            "(Private) Project at the request of a client, to manage data.",
           languajeImages: [
             "html-5.png",
             "css3.png",
@@ -185,7 +187,7 @@ export const useFrontEndProjectsData = () => {
           images: ["kemis/erp/image1.png", "kemis/erp/image2.png"],
           title: "ERP | Kemis",
           description:
-            "This project is part of a larger and more complete client system. In this case, different types of customer, employee or candidate data are handled",
+            "(Private) This project is part of a larger and more complete client system. In this case, different types of customer, employee or candidate data are handled",
           languajeImages: [
             "html-5.png",
             "css3.png",

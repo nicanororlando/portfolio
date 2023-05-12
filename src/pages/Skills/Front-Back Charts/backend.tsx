@@ -10,11 +10,11 @@ const Backend = () => {
   const BackendSeries = [
     {
       name: language.skills.labels_back.language,
-      data: [60, 30, 33],
+      data: [65, 50, 35],
     },
     {
       name: language.skills.labels_back.framework,
-      data: [60, 15, 15],
+      data: [60, 25, 15],
     },
     {
       name: language.skills.labels_back.testing,
