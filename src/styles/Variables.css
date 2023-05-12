@@ -41,35 +41,39 @@
   /* Colors */
   /* Color mode HSL (hue, saturation, lightness) */
 
+  --color-main: #e6e6e6;
+  --color-primary: #008c93;
+  --color-primary-light: #00c6cf;
+
   --color-contrast-dark: #111;
   --color-contrast-light: #fff;
 
   --nav-link-color: #1f242d;
-  --nav-link-color-active: #008c93;
+  --nav-link-color-active: var(--color-primary);
 
   --text-color: #1f242d;
-  --text-color-active: #008c93;
+  --text-color-active: var(--color-primary);
 
-  --body-color: #e6e6e6;
+  --body-color: var(--color-main);
   --container-color: #fff;
 
-  --button-bg-color: #008c93;
-  --button-bg-color-active: var(--body-color);
-  --button-bg-color-inverted: var(--body-color);
-  --button-bg-color-inverted-active: #008c93;
+  --button-bg-color: var(--color-primary);
+  --button-bg-color-active: var(--color-main);
+  --button-bg-color-inverted: var(--color-main);
+  --button-bg-color-inverted-active: var(--color-primary);
 
-  --button-color: var(--body-color);
-  --button-color-active: #008c93;
-  --button-color-inverted: #008c93;
-  --button-color-inverted-active: var(--body-color);
+  --button-color: var(--color-main);
+  --button-color-active: var(--color-primary);
+  --button-color-inverted: var(--color-primary);
+  --button-color-inverted-active: var(--color-main);
 
   --dropdown-item-bg-color: hsl(var(--hue), var(--sat), 98%);
   --dropdown-item-bg-color-hover: hsl(var(--hue), var(--sat), 95%);
 
-  --tab-bg-color: var(--body-color);
-  --tab-bg-color-active: #00c6cf;
+  --tab-bg-color: var(--color-main);
+  --tab-bg-color-active: var(--color-primary-light);
 
-  --slider-button-bg: #00c6cf;
+  --slider-button-bg: var(--color-primary-light);
 
   --border-primary: #008c93;
 
@@ -80,38 +84,42 @@
 #dark {
   /* Colors */
   /* Color mode HSL (hue, saturation, lightness) */
+  --color-main: #1f242d;
+  --color-primary: #0ef;
 
   --color-contrast-dark: #ddd;
   --color-contrast-light: #111;
 
   --nav-link-color: #e6f4f1;
-  --nav-link-color-active: #0ef;
+  --nav-link-color-active: var(--color-primary);
 
   --text-color: #e6f4f1;
-  --text-color-active: #0ef;
+  --text-color-active: var(--color-primary);
 
-  --body-color: #1f242d;
+  --body-color: var(--color-main);
   --container-color: #2a3a52;
 
-  --button-bg-color: #0ef;
-  --button-bg-color-active: var(--body-color);
-  --button-bg-color-inverted: var(--body-color);
-  --button-bg-color-inverted-active: #0ef;
+  --button-bg-color: var(--color-primary);
+  --button-bg-color-active: var(--color-main);
+  --button-bg-color-inverted: var(--color-main);
+  --button-bg-color-inverted-active: var(--color-primary);
 
-  --button-color: var(--body-color);
-  --button-color-active: #0ef;
-  --button-color-inverted: #0ef;
-  --button-color-inverted-active: var(--body-color);
+  --button-color: var(--color-main);
+  --button-color-active: var(--color-primary);
+  --button-color-inverted: var(--color-primary);
+  --button-color-inverted-active: var(--color-main);
 
   --dropdown-item-bg-color: hsl(var(--hue), var(--sat), 2%);
   --dropdown-item-bg-color-hover: hsl(var(--hue), var(--sat), 10%);
 
-  --tab-bg-color: var(--body-color);
-  --tab-bg-color-active: #90f8b5;
+  --tab-bg-color: var(--color-main);
+  --tab-bg-color-active: var(--color-primary);
+  /* --tab-bg-color-active: #90f8b5; */
 
-  --slider-button-bg: #90f8b5;
+  --slider-button-bg: var(--color-primary);
+  /* --slider-button-bg: #90f8b5; */
 
-  --border-primary: #0ef;
+  --border-primary: var(--color-primary);
 
   --background-photo: url(../assets/Foto-mia-darkmode.jpg);
   --background-photo-bw: url(../assets/Foto-mia-b&w-darkmode.jpg);
