@@ -22,15 +22,15 @@ const Skills = () => {
       </span>
 
       <div className="d-flex flex-column justify-content-center">
-        <div className="form-check form-switch m-auto mb-3">
-          <input
-            className="form-check-input color-red"
-            type="checkbox"
-            role="switch"
-            id="flexSwitchCheckChecked"
-            checked={showCharts}
-            onChange={handleSwitch}
-          />
+        <div className="d-flex flex-row justify-content-center mb-3">
+          <label className="toggle-switch me-2">
+            <input
+              type="checkbox"
+              checked={showCharts}
+              onChange={handleSwitch}
+            />
+            <span className="switch" />
+          </label>
           <label className="form-check-label" htmlFor="flexSwitchCheckChecked">
             {language.skills.show_charts}
           </label>

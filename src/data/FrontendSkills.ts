@@ -22,6 +22,10 @@ export const FrontEndSkills: ISkills[] = [
     level: 135,
   },
   {
+    title: "React Testing",
+    level: 70,
+  },
+  {
     title: "Nextjs",
     level: 70,
   },
@@ -40,5 +44,9 @@ export const FrontEndSkills: ISkills[] = [
   {
     title: "Angularjs",
     level: 50,
+  },
+  {
+    title: "Angularjs Testing",
+    level: 40,
   },
 ];
