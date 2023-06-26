@@ -36,7 +36,10 @@ const About: React.FC = () => {
             <span className="me-5">
               <MdElderly />
               <div>{language.about.about_data.age}</div>
-              <h6 className="mt-1">{language.about.about_data.age_number}</h6>
+              <h6 className="mt-1">
+                {new Date().getFullYear() - 2000}{" "}
+                {language.about.about_data.age_number}
+              </h6>
             </span>
             <span>
               <BsPersonWorkspace />

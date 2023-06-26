@@ -13,6 +13,8 @@ const Info = () => {
           {language.about.about_data.box.exp_title}
         </h3>
         <span className="about_subtitle">
+          {new Date().getFullYear() - 2022}
+          {" + "}
           {language.about.about_data.box.exp_subtitle}
         </span>
       </div>
