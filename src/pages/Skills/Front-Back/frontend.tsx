@@ -64,7 +64,17 @@ const Frontend = () => {
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">React</h3>
+              <h3 className="skills__name">Tailwind</h3>
+              <span className="skills__level">
+                {language.skills.levels.advanced}
+              </span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+            <div>
+              <h3 className="skills__name">Reactjs</h3>
               <span className="skills__level">
                 {language.skills.levels.professional}
               </span>
@@ -77,16 +87,6 @@ const Frontend = () => {
               <h3 className="skills__name">Angularjs</h3>
               <span className="skills__level">
                 {language.skills.levels.intermediate}
-              </span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">Git</h3>
-              <span className="skills__level">
-                {language.skills.levels.professional}
               </span>
             </div>
           </div>

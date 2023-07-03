@@ -15,8 +15,8 @@ const HomeData: React.FC = () => {
         language.home.data.home_subtitle_backend,
         language.home.data.home_subtitle_fullstack,
       ],
-      typeSpeed: 100,
-      backSpeed: 100,
+      typeSpeed: 70,
+      backSpeed: 70,
       backDelay: 1000,
     });
 

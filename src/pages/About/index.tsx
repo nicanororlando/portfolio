@@ -29,9 +29,9 @@ const About: React.FC = () => {
           <p className="m-0 animate-left">
             {language.about.about_data.about_description_2}
           </p>
-          <p className="m-0 animate-left">
+          {/* <p className="m-0 animate-left">
             {language.about.about_data.about_description_3}
-          </p>
+          </p> */}
           <div className="d-flex flew-row mt-3 mb-4 more animate-left">
             <span className="me-5">
               <MdElderly />

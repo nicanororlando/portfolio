@@ -18,7 +18,7 @@ export const CardContainer = styled.div`
     background-color: #eff2f3e3;
     cursor: pointer;
     :hover {
-      border: 1px solid var(--color-contrast-dark) !important;
+      box-shadow: 0 2px 0 var(--border-primary) !important;
     }
     .card_body {
       padding-top: 0;
