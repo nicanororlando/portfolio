@@ -38,6 +38,7 @@ const Footer: React.FC = () => {
             className="social-icon"
             target="_blank"
             rel="noreferrer"
+            title="Github"
           >
             <AiFillGithub />
           </a>
@@ -46,6 +47,7 @@ const Footer: React.FC = () => {
             className="social-icon"
             target="_blank"
             rel="noreferrer"
+            title="Linkedin"
           >
             <AiFillLinkedin />
           </a>
@@ -54,6 +56,7 @@ const Footer: React.FC = () => {
             className="social-icon"
             target="_blank"
             rel="noreferrer"
+            title="Instagram"
           >
             <AiFillInstagram />
           </a>

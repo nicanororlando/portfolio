@@ -10,6 +10,8 @@ const Social: React.FC = () => {
         className="social-icon"
         target="_blank"
         rel="noreferrer"
+        type="button"
+        title="Github"
       >
         <AiFillGithub />
       </a>
@@ -19,6 +21,7 @@ const Social: React.FC = () => {
         className="social-icon"
         target="_blank"
         rel="noreferrer"
+        title="Linkedin"
       >
         <AiFillLinkedin />
       </a>
@@ -28,6 +31,7 @@ const Social: React.FC = () => {
         className="social-icon"
         target="_blank"
         rel="noreferrer"
+        title="Instagram"
       >
         <AiFillInstagram />
       </a>
