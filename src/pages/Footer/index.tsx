@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Foot } from "./styles";
 import { useLanguage } from "hooks/useLanguage";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { Tooltip } from "react-tooltip";
 
 const Footer: React.FC = () => {
   const { language } = useLanguage();
@@ -21,7 +22,7 @@ const Footer: React.FC = () => {
               {language.navBar.about}
             </a>
           </li>
-          <li>
+          <li className="hide-sm">
             <a href="#projects" className="link">
               {language.navBar.projects}
             </a>
@@ -35,7 +36,7 @@ const Footer: React.FC = () => {
         <div className="social">
           <a
             href="https://github.com/nicanororlando"
-            className="social-icon"
+            className="social-icon github"
             target="_blank"
             rel="noreferrer"
             title="Github"
@@ -44,7 +45,7 @@ const Footer: React.FC = () => {
           </a>
           <a
             href="https://www.linkedin.com/in/nicanororlando"
-            className="social-icon"
+            className="social-icon linkedin"
             target="_blank"
             rel="noreferrer"
             title="Linkedin"
@@ -53,13 +54,22 @@ const Footer: React.FC = () => {
           </a>
           <a
             href="https://www.instagram.com/nicanororlando"
-            className="social-icon"
+            className="social-icon instagram"
             target="_blank"
             rel="noreferrer"
             title="Instagram"
           >
             <AiFillInstagram />
           </a>
+          <Tooltip anchorSelect=".github" place="bottom">
+            Github
+          </Tooltip>
+          <Tooltip anchorSelect=".linkedin" place="bottom">
+            Linkedin
+          </Tooltip>
+          <Tooltip anchorSelect=".instagram" place="bottom">
+            Instagram
+          </Tooltip>
         </div>
         <span className="copy">&#169; CanorCode. All rigths reserved</span>
       </Container>

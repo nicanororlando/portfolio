@@ -52,7 +52,9 @@ const Default: React.FC<Props> = () => {
         <Home />
         <About />
         <Skills />
-        <Projects />
+        <div className="hide-sm">
+          <Projects />
+        </div>
         <Contact />
         <Footer />
       </main>

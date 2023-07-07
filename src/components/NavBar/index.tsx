@@ -81,8 +81,8 @@ const NavBar: React.FC<IProps> = ({ activeElement }) => {
                     href="#projects"
                     className={
                       activeNav === "#projects"
-                        ? "nav__link active-link"
-                        : "nav__link"
+                        ? "nav__link active-link hide-sm"
+                        : "nav__link hide-sm"
                     }
                     onClick={() => setActiveNav("#projects")}
                   >

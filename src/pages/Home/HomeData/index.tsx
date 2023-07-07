@@ -15,8 +15,8 @@ const HomeData: React.FC = () => {
         language.home.data.home_subtitle_backend,
         language.home.data.home_subtitle_fullstack,
       ],
-      typeSpeed: 70,
-      backSpeed: 70,
+      typeSpeed: 20,
+      backSpeed: 20,
       backDelay: 1000,
     });
 
@@ -28,18 +28,14 @@ const HomeData: React.FC = () => {
 
   return (
     <div className="home__data mt-3">
-      <h3 className="home__hello animate-bottom">
+      {/* <h3 className="home__hello animate-bottom">
         {language.home.data.hello}
-        {/* <Hand /> */}
-      </h3>
-      <h1 className="home__title animate-right">
-        Nicanor Orlando
-        {/* <Hand /> */}
-      </h1>
+      </h3> */}
+      <h3 className="home__title animate-right">Nicanor Orlando</h3>
       <div className="home__subtitle animate-top">
-        <span className="home__subtitle-1">
+        {/* <span className="home__subtitle-1">
           {language.home.data.home_subtitle}
-        </span>
+        </span> */}
         <span ref={description} className="home__subtitle-2" />
       </div>
       <p className="home__description animate-left">
